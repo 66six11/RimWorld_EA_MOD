@@ -364,5 +364,20 @@
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentCherino</defName>
+		<title>切里诺</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是红冬联邦学园所属，蛮横又孩子气的学生会长。
+对权力的执着与欲望十分惊人，即使每周都因为革命而失势，却能不断设法回到学生会长的宝座。
+贴在鼻子下面的胡子据切里诺所说是「权威的象征」、以及「所谓的权威就是由胡子而来的」。
+"为与我这个最高权力者相遇，感到幸运吧！"</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryCherino</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
 
 </Defs>

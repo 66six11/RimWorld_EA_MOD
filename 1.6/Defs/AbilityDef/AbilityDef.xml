@@ -44,7 +44,7 @@
   <onlyApplyToSelf>true</onlyApplyToSelf> <!-- 仅对自己生效 -->
   <replaceExisting>false</replaceExisting><!-- 如果已有同类效果，则替换它 -->
   </li>
-  <li Class="CompProperties_AbilityEffecterOnTarget">
+  <li Class="CompProperties_AbilityFireSpew">
   <effecterDef>Hoshiro_HPP</effecterDef>
       </li>
   </comps>

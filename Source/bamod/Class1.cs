@@ -1,6 +1,9 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
+using System.Reflection;
 using HarmonyLib;
 using RimWorld;
+using UnityEngine;
 using Verse;
 
 namespace RemoteAttackBoostMod

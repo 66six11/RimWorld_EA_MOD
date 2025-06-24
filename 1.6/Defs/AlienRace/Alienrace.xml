@@ -199,4 +199,14 @@
 		</killedLeavingsRanges>
 	</AlienRace.ThingDef_AlienRace>
 
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Cherino_race</defName>
+		<label>切里诺</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Cherino_Proplevel>50</Cherino_Proplevel>
+			<Kami_Proplevel>30</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+
 </Defs>

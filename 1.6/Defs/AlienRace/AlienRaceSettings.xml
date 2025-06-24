@@ -69,6 +69,7 @@
 								<Backstory For="BANW_StudentNero">Pawns/Millennium/Nero/Halo/Nero_Halo</Backstory>
 								<Backstory For="BANW_StudentIchika">Pawns/Sany/Ichika/Halo/Ichika_Halo</Backstory>
 								<Backstory For="BANW_StudentKarlin">Pawns/Millennium/Karlin/Halo/Karlin_Halo</Backstory>
+								<Backstory For="BANW_StudentCherino">Pawns/RedWinter/Cherino/Halo/Cherino_Halo</Backstory>
 								
 							</extendedGraphics>
 						</li>
@@ -119,6 +120,7 @@
 								<Backstory For="BANW_StudentNero">Pawns/Millennium/Nero/Head/Nero_Head</Backstory>
 								<Backstory For="BANW_StudentIchika">Pawns/Sany/Ichika/Head/Ichika_Head</Backstory>
 								<Backstory For="BANW_StudentKarlin">Pawns/Millennium/Karlin/Head/Karlin_Head</Backstory>
+								<Backstory For="BANW_StudentCherino">Pawns/RedWinter/Cherino/Head/Cherino_Head</Backstory>
 							</extendedGraphics>
 						</li>
 						<!-- 身体 -->
@@ -172,6 +174,7 @@
 								<Backstory For="BANW_StudentNero">Pawns/Millennium/Nero/Body/Nero_Body</Backstory>
 								<Backstory For="BANW_StudentIchika">Pawns/Sany/Ichika/Body/Ichika_Body</Backstory>
 								<Backstory For="BANW_StudentKarlin">Pawns/Millennium/Karlin/Body/Karlin_Body</Backstory>
+								<Backstory For="BANW_StudentCherino">Pawns/RedWinter/Cherino/Body/Cherino_Body</Backstory>
 							</extendedGraphics>
 						</li>
 						<!-- 头发前 -->
@@ -221,6 +224,7 @@
 								<Backstory For="BANW_StudentNero">Pawns/Millennium/Nero/Hair/Nero_FrontHair</Backstory>
 								<Backstory For="BANW_StudentIchika">Pawns/Sany/Ichika/Hair/Ichika_FrontHair</Backstory>
 								<Backstory For="BANW_StudentKarlin">Pawns/Millennium/Karlin/Hair/Karlin_FrontHair</Backstory>
+								<Backstory For="BANW_StudentCherino">Pawns/RedWinter/Cherino/Hair/Cherino_FrontHair</Backstory>
 							</extendedGraphics>
 						</li>
 						<!-- 头发后 -->
@@ -275,6 +279,7 @@
 								<Backstory For="BANW_StudentNero">Pawns/Millennium/Nero/Hair/Nero_BackHair</Backstory>
 								<Backstory For="BANW_StudentIchika">Pawns/Sany/Ichika/Hair/Ichika_BackHair</Backstory>
 								<Backstory For="BANW_StudentKarlin">Pawns/Millennium/Karlin/Hair/Karlin_BackHair</Backstory>
+								<Backstory For="BANW_StudentCherino">Pawns/RedWinter/Cherino/Hair/Cherino_BackHair</Backstory>
 							</extendedGraphics>
 						</li>
 						
@@ -419,6 +424,7 @@
 					<li>BANW_Body_Nero</li>
 					<li>BANW_Body_Ichika</li>
 					<li>BANW_Body_Karlin</li>
+					<li>BANW_Body_Cherino</li>
 
 					<li>BANC_Hat_One</li>
 					<li>BANC_Glove_One</li>

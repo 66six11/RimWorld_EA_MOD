@@ -591,7 +591,38 @@
 <description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
 <stackLimit>300</stackLimit>
 <graphicData>
-      <texPath>Prop/Proplevel/Ichika</texPath>
+      <texPath>Prop/Proplevel/Karlin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+</graphicData>
+<selectable>true</selectable>
+<size>(1, 1)</size>
+<thingClass>ThingWithComps</thingClass>
+<category>Item</category>
+<altitudeLayer>Item</altitudeLayer>
+    <statBases>
+    <Flammability>0</Flammability>
+    <MarketValue>0.1</MarketValue>
+      <Mass>0.5</Mass> 
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <pathCost>15</pathCost>
+    <alwaysHaulable>true</alwaysHaulable> <!-- 添加可搬运属性 -->
+    <drawGUIOverlay>true</drawGUIOverlay> <!-- 显示数量浮标 -->
+ <thingCategories>
+  <li>ResourcesRaw</li>
+    </thingCategories>
+    </ThingDef>
+
+    <ThingDef Parent="ResourceBase">
+    <defName>Cherino_Proplevel</defName>
+<label>切里诺的神明文字</label>
+<description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
+<stackLimit>300</stackLimit>
+<graphicData>
+      <texPath>Prop/Proplevel/Cherino</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.0</drawSize>
 </graphicData>

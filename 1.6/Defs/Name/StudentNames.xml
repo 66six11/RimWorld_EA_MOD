@@ -282,4 +282,19 @@
 			</rulesRaw>
 		</rulePack>
 	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerCherino</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Cherino]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Cherino</keyword>
+					<path>Names/Cherino</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
 </Defs>
