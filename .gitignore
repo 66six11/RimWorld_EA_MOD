@@ -1,0 +1,34 @@
+### .NET 核心 ###
+bin/
+obj/
+out/
+*.user
+*.suo
+*.cache
+*.nupkg
+
+### IDE ###
+.vs/
+.vscode/
+.idea/
+
+### 依赖项 ###
+packages/
+
+### 测试 & 文档 ###
+TestResults/
+docs/_site/
+
+### 敏感配置 ###
+appsettings.Development.json
+secrets.json
+
+### 日志 & 临时文件 ###
+logs/
+*.log
+temp/
+*.tmp
+
+### 操作系统文件 ###
+.DS_Store
+Thumbs.db
