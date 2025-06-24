@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentAdult</defName>
+		<title>基沃托斯学生</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]出生于基沃托斯。\n\n现在她准备好战斗了.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+ 			<li>BANW_Backstory</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentHikali</defName>
+		<title>橘光</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]15岁事学生.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryHikali</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentAoba</defName>
+		<title>青叶</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]15岁事学生.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryAoba</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentMiyu</defName>
+		<title>美游</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]15岁事学生.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryMiyu</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentNozomi</defName>
+		<title>望</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]15岁事学生.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryNozomi</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentHoshiro</defName>
+		<title>星野</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]15岁事学生.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryHoshiro</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentTurugi</defName>
+		<title>鹤城</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]15岁事学生.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryTurugi</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentSeia</defName>
+		<title>圣娅</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]15岁事学生.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstorySeia</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentAsuna</defName>
+		<title>亚丝娜</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]15岁事学生.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryAsuna</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentMiyako</defName>
+		<title>宫子</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]15岁事学生.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryMiyako</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentShiroko</defName>
+		<title>白子</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]15岁事学生.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryShiroko</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentSaki</defName>
+		<title>咲希</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]15岁事学生.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstorySaki</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentAkane</defName>
+		<title>朱音</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]15岁事学生.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryAkane</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentHasumi</defName>
+		<title>莲见</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]15岁事学生.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryHasumi</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+</Defs>

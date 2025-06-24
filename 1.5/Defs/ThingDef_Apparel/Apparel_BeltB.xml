@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="BANC_Apparel_Base">
+        <defName>BANC_Badge_1</defName>
+        <label>薮猫金属徽章</label>
+        <description>薮猫金属徽章</description>
+        <graphicData><!--需要一个衣服的通用物品贴图-->
+            <texPath>Belt/Badge_1</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Belt/Badge_1</wornGraphicPath>
+            <bodyPartGroups>
+              <li>Eyes</li>
+            </bodyPartGroups>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>BANC_Badge_1</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="BANC_Apparel_Base">
+        <defName>BANC_Bag_1</defName>
+        <label>防水运动包</label>
+        <description>防水运动包</description>
+        <graphicData><!--需要一个衣服的通用物品贴图-->
+            <texPath>Belt/Bag_1</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawOffset>(0,0,0)</drawOffset>
+        </graphicData>
+        <statBases>
+         <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.3</ArmorRating_Heat>   
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Belt/Bag_1</wornGraphicPath>
+            <bodyPartGroups>
+               <li>Eyes</li>
+            </bodyPartGroups>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>BANC_Bag_1</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+     <ThingDef ParentName="BANC_Apparel_Base">
+        <defName>BANC_Hairpin_1</defName>
+        <label>网球发带</label>
+        <description>网球发带</description>
+        <graphicData><!--需要一个衣服的通用物品贴图-->
+            <texPath>Belt/Hairpin_1</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+         <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.3</ArmorRating_Heat>   
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Belt/Hairpin_1</wornGraphicPath>
+            <bodyPartGroups>
+               <li>Eyes</li>
+            </bodyPartGroups>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>BANC_Hairpin_1</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+</Defs>

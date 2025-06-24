@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<PawnKindDef ParentName="BANW_BasePawn">
+		<defName>BANW_Saki</defName>
+		<label>-咲希-</label>
+		<race>BANW_Saki_race</race>
+		<combatPower>100</combatPower>
+		<isFighter>true</isFighter>
+		<nameMaker>NamerSaki</nameMaker>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<generateInitialNonFamilyRelations>false</generateInitialNonFamilyRelations>
+		<biocodeWeaponChance>1.0</biocodeWeaponChance>
+		<humanPregnancyChance>0.0</humanPregnancyChance>
+		<fixedGender>Female</fixedGender>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>BANW_BackstorySrt</li>
+					<li>BANW_BackstorySaki</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponMoney>9999~9999</weaponMoney>
+		<minGenerationAge>15</minGenerationAge>
+		<maxGenerationAge>16</maxGenerationAge>
+		<weaponTags>
+         <li>BANC_Saki</li>
+        </weaponTags>
+		<apparelRequired Inherit="False">
+			<li>BANW_Body_Saki</li>
+		</apparelRequired>
+		<forcedHair>Bald</forcedHair>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>10~15</range>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<range>10~15</range>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<range>10~15</range>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<range>0</range>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<range>10~15</range>
+			</li>
+		</skills>
+		<forcedTraits>
+			<BAWC_TraitDef_Attack>0</BAWC_TraitDef_Attack>
+		</forcedTraits>
+	</PawnKindDef>
+
+</Defs>

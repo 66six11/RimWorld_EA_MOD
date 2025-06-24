@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="BANC_Apparel_Base">
+        <defName>BANC_Amulet_One</defName>
+        <label>交通安全护身符</label>
+        <description>怀着交通安全的祈愿而制成的护身符。摇一摇护身符就可以听到里边有某种金属制品在叮当作响。
+        提供意识和承伤系数</description>
+        <graphicData><!--需要一个衣服的通用物品贴图-->
+            <texPath>Belt/Amulet_1</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_CauseHediff_Apparel">
+                <hediff>BANC_BluetoothAmulet_One</hediff>
+            </li>
+        </comps>
+        <statBases>
+         <MarketValue>500</MarketValue>
+        </statBases>
+        <equippedStatOffsets>
+        <IncomingDamageFactor>-0.05</IncomingDamageFactor>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Belt/Amulet_1_Thin</wornGraphicPath>
+            <bodyPartGroups>
+              <li>Eyes</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>BANC_Amulet_One</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="BANC_Apparel_Base">
+        <defName>BANC_Watch_One</defName>
+        <label>防水数码手表</label>
+        <description>运动品牌“薮猫”出品的数码手表。因为是防水手表，所以在游泳的时候也可以佩戴，不用担心出现故障。
+        可以减少瞄准时间和装填时间</description>
+        <graphicData><!--需要一个衣服的通用物品贴图-->
+            <texPath>Belt/Watch_1</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+         <MarketValue>500</MarketValue>
+        </statBases>
+        <equippedStatOffsets>
+        <AimingDelayFactor>-0.07</AimingDelayFactor>
+        <RangedWeapon_Cooldown>-0.07</RangedWeapon_Cooldown>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Belt/Watch_1_Thin</wornGraphicPath>
+            <bodyPartGroups>
+               <li>Eyes</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>BANC_Watch_One</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="BANC_Apparel_Base">
+        <defName>BANC_Necklace_One</defName>
+        <label>蓝牙项链</label>
+        <description>可以测量佩戴者的体温和心率的蓝牙项链。可以通过项链轻易掌握运动量，因此对减肥的人来说是必需品。
+        可以增加疼痛忍耐率和生命恢复</description>
+        <graphicData><!--需要一个衣服的通用物品贴图-->
+            <texPath>Belt/Necklace_1</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_CauseHediff_Apparel">
+                <hediff>BANC_BluetoothNecklace_One</hediff>
+            </li>
+        </comps>
+        <statBases>
+         <MarketValue>500</MarketValue>
+        </statBases>
+        <equippedStatOffsets>
+        <PainShockThreshold>+0.05</PainShockThreshold>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Belt/Necklace_1_Thin</wornGraphicPath>
+            <bodyPartGroups>
+               <li>Eyes</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>BANC_Necklace_One</li>
+            </tags>
+         
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="BANC_Apparel_Base_Tow">
+        <defName>BANC_Amulet_Tow</defName>
+        <label>暖手贴</label>
+        <description>揉搓几下再摇晃下，就会变热的暖手贴。在酷寒的环境下，没有比这更有用的护身符了。
+        提供意识和承伤系数</description>
+        <graphicData><!--需要一个衣服的通用物品贴图-->
+            <texPath>Belt/Amulet_2</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_CauseHediff_Apparel">
+                <hediff>BANC_BluetoothAmulet_Tow</hediff>
+            </li>
+        </comps>
+        <statBases>
+         <MarketValue>800</MarketValue>
+        </statBases>
+        <equippedStatOffsets>
+        <IncomingDamageFactor>-0.07</IncomingDamageFactor>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Belt/Amulet_1_Thin</wornGraphicPath>
+            <bodyPartGroups>
+              <li>Eyes</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>BANC_Amulet_Tow</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="BANC_Apparel_Base_Tow">
+        <defName>BANC_Watch_Tow</defName>
+        <label>皮带手表</label>
+        <description>户外品牌“玛纳斯卢”出品的皮带手表。因表带是皮革，可以有效防止手腕变凉。
+        可以减少瞄准时间和装填时间</description>
+        <graphicData><!--需要一个衣服的通用物品贴图-->
+            <texPath>Belt/Watch_2</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+         <MarketValue>800</MarketValue>
+        </statBases>
+        <equippedStatOffsets>
+        <AimingDelayFactor>-0.11</AimingDelayFactor>
+        <RangedWeapon_Cooldown>-0.11</RangedWeapon_Cooldown>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Belt/Watch_1_Thin</wornGraphicPath>
+            <bodyPartGroups>
+               <li>Eyes</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>BANC_Watch_Tow</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+     <ThingDef ParentName="BANC_Apparel_Base_Tow">
+        <defName>BANC_Necklace_Tow</defName>
+        <label>雪花吊坠</label>
+        <description>有雪花形状装饰的银色吊坠。一直盯着雪花看久了，就感觉身体凉飕飕的。
+        可以增加疼痛忍耐率和生命恢复</description>
+        <graphicData><!--需要一个衣服的通用物品贴图-->
+            <texPath>Belt/Necklace_2</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_CauseHediff_Apparel">
+                <hediff>BANC_BluetoothNecklace_Tow</hediff>
+            </li>
+        </comps>
+        <statBases>
+         <MarketValue>800</MarketValue>
+        </statBases>
+        <equippedStatOffsets>
+        <PainShockThreshold>+0.08</PainShockThreshold>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Belt/Necklace_1_Thin</wornGraphicPath>
+            <bodyPartGroups>
+               <li>Eyes</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>BANC_Necklace_Tow</li>
+            </tags>
+         
+        </apparel>
+    </ThingDef>
+</Defs>

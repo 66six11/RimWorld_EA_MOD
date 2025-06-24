@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="BANC_Apparel_Base">
+        <defName>BANC_hat_1</defName>
+        <label>单色鸭舌帽</label>
+        <description>单色鸭舌帽</description>
+        <graphicData><!--需要一个衣服的通用物品贴图-->
+            <texPath>Belt/Hat_1</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Belt/Hat_1</wornGraphicPath>
+            <bodyPartGroups>
+              <li>Eyes</li>
+            </bodyPartGroups>
+            
+            <layers>
+                <li>Belt</li>
+            </layers>
+            <tags>
+                <li>BANC_hat_1</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="BANC_Apparel_Base">
+        <defName>BANC_Glove_1</defName>
+        <label>运动手套</label>
+        <description>运动手套</description>
+        <graphicData><!--需要一个衣服的通用物品贴图-->
+            <texPath>Belt/Glove_1</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+         <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.3</ArmorRating_Heat>   
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Belt/Glove_1</wornGraphicPath>
+            <bodyPartGroups>
+               <li>Eyes</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Belt</li>
+            </layers>
+            <tags>
+                <li>BANC_glove_1</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="BANC_Apparel_Base">
+        <defName>BANC_Shoes_1</defName>
+        <label>粉色休闲鞋</label>
+        <description>粉色休闲鞋</description>
+        <graphicData><!--需要一个衣服的通用物品贴图-->
+            <texPath>Belt/Shoes_1</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+         <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.3</ArmorRating_Heat>   
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Belt/Shoes_1</wornGraphicPath>
+            <bodyPartGroups>
+               <li>Eyes</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Belt</li>
+            </layers>
+            <tags>
+                <li>BANC_Shoes_1</li>
+            </tags>
+        </apparel>
+        <comps>
+        </comps>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.ThingDef_AlienRace Name="BANW_KivotosStudent" ParentName="BANW_StudentThingBase">
+		<defName>BANW_KivotosStudent</defName>
+		<label>基沃托斯人</label>
+		<description>[PlaceHolder]</description>
+		<alienRace>
+			<graphicPaths>
+				<body>
+					<path>Pawns/General/Invisible/Inv</path>
+				</body>
+				<head>Pawns/General/Invisible_Head/</head>
+				<skinColor>(0,0,0,1)</skinColor>
+			</graphicPaths>
+			<generalSettings>
+				<alienPartGenerator>
+					<customDrawSize>(1, 1)</customDrawSize>					<!-- 小人整体大小 -->
+					<bodyAddons>
+						<!-- 光环 -->
+						<li>
+							<name>KivotosStudent_halo</name>
+							<path>Pawns/General/Invisible/Inv</path>
+							<conditions>
+								<RotStage>Fresh,Rotting,Dessicated</RotStage>
+								<BodyPart>
+									<bodyPart>Halo</bodyPart>
+									<bodyPartLabel>光环</bodyPartLabel>
+									<drawWithoutPart>true</drawWithoutPart>
+								</BodyPart>
+								<Posture>
+									<drawnStanding>true</drawnStanding>
+									<drawnLaying>true</drawnLaying>
+									<drawnInBed>false</drawnInBed>									<!-- 睡觉不显示光环 -->
+								</Posture>
+							</conditions>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<offsets>
+								<north>
+									<layerOffset>0.3</layerOffset>
+									<offset>(0,0.1)</offset>
+								</north>
+								<south>
+									<layerOffset>-0.29</layerOffset>
+									<offset>(0,0.29)</offset>
+								</south>
+								<east>
+									<layerOffset>-0.29</layerOffset>
+									<offset>(0,0.35)</offset>
+								</east>
+							</offsets>
+							<extendedGraphics>
+								<Backstory For="BANW_StudentHikali">Pawns/Highland/Hikali/Halo/Hikali_Halo</Backstory>
+								<Backstory For="BANW_StudentMiyu">Pawns/Srt/Miyu/Halo/Miyu_Halo</Backstory>
+								<Backstory For="BANW_StudentNozomi">Pawns/Highland/Nozomi/Halo/Nozomi_Halo</Backstory>
+								<Backstory For="BANW_StudentHoshiro">Pawns/Abydos/Hoshiro/Halo/Hoshiro_Halo</Backstory>
+								<Backstory For="BANW_StudentAoba">Pawns/Highland/Aoba/Halo/Aoba_Halo</Backstory>
+								<Backstory For="BANW_StudentTurugi">Pawns/Sany/Turugi/Halo/Turugi_Halo</Backstory>
+								<Backstory For="BANW_StudentSeia">Pawns/Sany/Seia/Halo/Seia_Halo</Backstory>
+								<Backstory For="BANW_StudentAsuna">Pawns/Millennium/Asuna/Halo/Asuna_Halo</Backstory>
+								<Backstory For="BANW_StudentMiyako">Pawns/Srt/Miyako/Halo/Miyako_Halo</Backstory>
+								<Backstory For="BANW_StudentShiroko">Pawns/Abydos/Shiroko/Halo/Shiroko_Halo</Backstory>
+								<Backstory For="BANW_StudentSaki">Pawns/Srt/Saki/Halo/Saki_Halo</Backstory>
+								<Backstory For="BANW_StudentAkane">Pawns/Millennium/Akane/Halo/Akane_Halo</Backstory>
+								<Backstory For="BANW_StudentHasumi">Pawns/Sany/Hasumi/Halo/Hasumi_Halo</Backstory>
+							</extendedGraphics>
+						</li>
+						<!-- 头 -->
+						<li>
+							<name>KivotosStudent_head</name>
+							<path>Pawns/General/Invisible/Inv</path>
+							<inFrontOfBody>true</inFrontOfBody>
+							<conditions>
+								<BodyPart>
+									<bodyPart>BANW_Head</bodyPart>
+								</BodyPart>
+								<RotStage>Fresh,Rotting,Dessicated</RotStage>
+							</conditions>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<offsets>
+								<north>
+									<layerOffset>-0.28</layerOffset>
+									<offset>(0,-0.345)</offset>
+								</north>
+								<south>
+									<layerOffset>-0.28</layerOffset>
+									<offset>(0,-0.355)</offset>
+								</south>
+								<east>
+									<layerOffset>-0.28</layerOffset>
+									<offset>(0.1,-0.33)</offset>
+								</east>
+							</offsets>
+							<extendedGraphics>
+								<Backstory For="BANW_StudentHikali">Pawns/Highland/Hikali/Head/Hikali_Head</Backstory>
+								<Backstory For="BANW_StudentMiyu">Pawns/Srt/Miyu/Head/Miyu_Head</Backstory>
+								<Backstory For="BANW_StudentNozomi">Pawns/Highland/Nozomi/Head/Nozomi_Head</Backstory>
+								<Backstory For="BANW_StudentHoshiro">Pawns/Abydos/Hoshiro/Head/Hoshiro_Head</Backstory>
+								<Backstory For="BANW_StudentAoba">Pawns/Highland/Aoba/Head/Aoba_Head</Backstory>
+								<Backstory For="BANW_StudentTurugi">Pawns/Sany/Turugi/Head/Turugi_Head</Backstory>
+								<Backstory For="BANW_StudentSeia">Pawns/Sany/Seia/Head/Seia_Head</Backstory>
+								<Backstory For="BANW_StudentAsuna">Pawns/Millennium/Asuna/Head/Asuna_Head</Backstory>
+								<Backstory For="BANW_StudentMiyako">Pawns/Srt/Miyako/Head/Miyako_Head</Backstory>
+								<Backstory For="BANW_StudentShiroko">Pawns/Abydos/Shiroko/Head/Shiroko_Head</Backstory>
+								<Backstory For="BANW_StudentSaki">Pawns/Srt/Saki/Head/Saki_Head</Backstory>
+								<Backstory For="BANW_StudentAkane">Pawns/Millennium/Akane/Head/Akane_Head</Backstory>
+								<Backstory For="BANW_StudentHasumi">Pawns/Sany/Hasumi/Head/Hasumi_Head</Backstory>
+							</extendedGraphics>
+						</li>
+						<!-- 身体 -->
+						<li>
+							<name>KivotosStudent_Body</name>
+							<path>Pawns/General/Invisible/Inv</path>
+							<inFrontOfBody>true</inFrontOfBody>
+							<conditions>
+								<BodyPart>
+									<bodyPart>BANW_Torso</bodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>BANW_Body</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+								<RotStage>Fresh,Rotting,Dessicated</RotStage>
+							</conditions>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<offsets>
+								<north>
+									<layerOffset>-0.28</layerOffset>
+									<offset>(0,0)</offset>
+								</north>
+								<south>
+									<layerOffset>-0.28</layerOffset>
+									<offset>(0,0)</offset>
+								</south>
+								<east>
+									<layerOffset>-0.28</layerOffset>
+									<offset>(0,0)</offset>
+								</east>
+							</offsets>
+							<extendedGraphics>
+								<Backstory For="BANW_StudentHikali">Pawns/Highland/Hikali/Body/Hikali_Body</Backstory>
+								<Backstory For="BANW_StudentMiyu">Pawns/Srt/Miyu/Body/Miyu_Body</Backstory>
+								<Backstory For="BANW_StudentNozomi">Pawns/Highland/Nozomi/Body/Nozomi_Body</Backstory>
+								<Backstory For="BANW_StudentHoshiro">Pawns/Abydos/Hoshiro/Body/Hoshiro_Body</Backstory>
+								<Backstory For="BANW_StudentAoba">Pawns/Highland/Aoba/Body/Aoba_Body</Backstory>
+								<Backstory For="BANW_StudentTurugi">Pawns/Sany/Turugi/Body/Turugi_Body</Backstory>
+								<Backstory For="BANW_StudentSeia">Pawns/Sany/Seia/Body/Seia_Body</Backstory>
+								<Backstory For="BANW_StudentAsuna">Pawns/Millennium/Asuna/Body/Asuna_Body</Backstory>
+								<Backstory For="BANW_StudentMiyako">Pawns/Srt/Miyako/Body/Miyako_Body</Backstory>
+								<Backstory For="BANW_StudentShiroko">Pawns/Abydos/Shiroko/Body/Shiroko_Body</Backstory>
+								<Backstory For="BANW_StudentSaki">Pawns/Srt/Saki/Body/Saki_Body</Backstory>
+								<Backstory For="BANW_StudentAkane">Pawns/Millennium/Akane/Body/Akane_Body</Backstory>
+								<Backstory For="BANW_StudentHasumi">Pawns/Sany/Hasumi/Body/Hasumi_Body</Backstory>
+							</extendedGraphics>
+						</li>
+						<!-- 头发前 -->
+						<li>
+							<name>KivotosStudent_hairfront</name>
+							<path>Pawns/General/Invisible/Inv</path>
+							<inFrontOfBody>true</inFrontOfBody>
+							<conditions>
+								<BodyPart>
+									<bodyPart>BANW_Head</bodyPart>
+								</BodyPart>
+								<RotStage>Fresh,Rotting,Dessicated</RotStage>
+							</conditions>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<offsets>
+								<north>
+									<layerOffset>-0.4</layerOffset>
+									<offset>(0,-0.345)</offset>
+								</north>
+								<south>
+									<layerOffset>-0.27</layerOffset>
+									<offset>(0,-0.355)</offset>
+								</south>
+								<east>
+									<layerOffset>-0.27</layerOffset>
+									<offset>(0.1,-0.33)</offset>
+								</east>
+							</offsets>
+							<extendedGraphics>
+								<Backstory For="BANW_StudentHikali">Pawns/Highland/Hikali/Hair/Hikali_FrontHair</Backstory>
+								<Backstory For="BANW_StudentMiyu">Pawns/Srt/Miyu/Hair/Miyu_FrontHair</Backstory>
+								<Backstory For="BANW_StudentNozomi">Pawns/Highland/Nozomi/Hair/Nozomi_FrontHair</Backstory>
+								<Backstory For="BANW_StudentHoshiro">Pawns/Abydos/Hoshiro/Hair/Hoshiro_FrontHair</Backstory>
+								<Backstory For="BANW_StudentAoba">Pawns/Highland/Aoba/Hair/Aoba_FrontHair</Backstory>
+								<Backstory For="BANW_StudentTurugi">Pawns/Sany/Turugi/Hair/Turugi_FrontHair</Backstory>
+								<Backstory For="BANW_StudentSeia">Pawns/Sany/Seia/Hair/Seia_FrontHair</Backstory>
+								<Backstory For="BANW_StudentAsuna">Pawns/Millennium/Asuna/Hair/Asuna_FrontHair</Backstory>
+								<Backstory For="BANW_StudentMiyako">Pawns/Srt/Miyako/Hair/Miyako_FrontHair</Backstory>
+								<Backstory For="BANW_StudentShiroko">Pawns/Abydos/Shiroko/Hair/Shiroko_FrontHair</Backstory>
+								<Backstory For="BANW_StudentSaki">Pawns/Srt/Saki/Hair/Saki_FrontHair</Backstory>
+								<Backstory For="BANW_StudentAkane">Pawns/Millennium/Akane/Hair/Akane_FrontHair</Backstory>
+								<Backstory For="BANW_StudentHasumi">Pawns/Sany/Hasumi/Hair/Hasumi_FrontHair</Backstory>
+							</extendedGraphics>
+						</li>
+						<!-- 头发后 -->
+						<li>
+							<name>KivotosStudent_hairback</name>
+							<path>Pawns/General/Invisible/Inv</path>
+							<conditions>
+								<BodyPart>
+									<bodyPart>BANW_Head</bodyPart>
+								</BodyPart>
+								<RotStage>Fresh,Rotting,Dessicated</RotStage>
+							</conditions>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<offsets>
+								<north>
+									<layerOffset>-0.281</layerOffset>
+									<offset>(0,-0.345)</offset>
+								</north>
+								<south>
+									<layerOffset>0.58</layerOffset>
+									<offset>(0,-0.355)</offset>
+								</south>
+								<east>
+									<layerOffset>-0.28</layerOffset>
+									<offset>(0.1,-0.33)</offset>
+								</east>
+							</offsets>
+							<extendedGraphics>
+								<Backstory For="BANW_StudentHikali">Pawns/Highland/Hikali/Hair/Hikali_BackHair</Backstory>
+								<Backstory For="BANW_StudentMiyu">Pawns/Srt/Miyu/Hair/Miyu_BackHair</Backstory>
+								<Backstory For="BANW_StudentNozomi">Pawns/Highland/Nozomi/Hair/Nozomi_BackHair</Backstory>
+								<Backstory For="BANW_StudentHoshiro">Pawns/Abydos/Hoshiro/Hair/Hoshiro_BackHair</Backstory>
+								<Backstory For="BANW_StudentAoba">Pawns/Highland/Aoba/Hair/Aoba_BackHair</Backstory>
+								<Backstory For="BANW_StudentTurugi">Pawns/Sany/Turugi/Hair/Turugi_BackHair</Backstory>
+								<Backstory For="BANW_StudentSeia">Pawns/Sany/Seia/Hair/Seia_BackHair</Backstory>
+								<Backstory For="BANW_StudentAsuna">Pawns/Millennium/Asuna/Hair/Asuna_BackHair</Backstory>
+								<Backstory For="BANW_StudentMiyako">Pawns/Srt/Miyako/Hair/Miyako_BackHair</Backstory>
+								<Backstory For="BANW_StudentShiroko">Pawns/Abydos/Shiroko/Hair/Shiroko_BackHair</Backstory>
+								<Backstory For="BANW_StudentSaki">Pawns/Srt/Saki/Hair/Saki_BackHair</Backstory>
+								<Backstory For="BANW_StudentAkane">Pawns/Millennium/Akane/Hair/Akane_BackHair</Backstory>
+								<Backstory For="BANW_StudentHasumi">Pawns/Sany/Hasumi/Hair/Hasumi_BackHair</Backstory>
+							</extendedGraphics>
+						</li>
+						</bodyAddons>
+				</alienPartGenerator>
+			</generalSettings>
+		</alienRace>
+	</AlienRace.ThingDef_AlienRace>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="BANW_StudentThingBase" Abstract="True">
+		<alienRace>
+			<generalSettings>
+				<maleGenderProbability>0.0</maleGenderProbability>
+				<immuneToAge>false</immuneToAge>
+				<canLayDown>true</canLayDown>
+				<immuneToXenophobia>true</immuneToXenophobia>
+				<notXenophobistTowards>
+				</notXenophobistTowards>
+				<humanRecipeImport>true</humanRecipeImport>
+				<alienPartGenerator>
+					<bodyTypes>
+						<li>Thin</li>
+					</bodyTypes>
+                    <headbodyPartDef>BANW_Head</headbodyPartDef>
+					<headTypes Inherit="False">
+						<li>Female_AverageNormal</li>
+					</headTypes>
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options" Inherit="false">
+								<options>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(1,1,1,1)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+					</colorChannels>
+				</alienPartGenerator>
+				<maxDamageForSocialfight>6</maxDamageForSocialfight>
+				<reproduction>
+					<femaleFertilityAgeFactor>
+						<points>
+							<li>(0.01, 0)</li>
+							<li>(80,0)</li>
+						</points>
+					</femaleFertilityAgeFactor>
+				</reproduction>
+			</generalSettings>
+
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
+			<raceRestriction>
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+				<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
+				<onlyBuildRaceRestrictedBuildings>false</onlyBuildRaceRestrictedBuildings>
+				<onlyEatRaceRestrictedFood>false</onlyEatRaceRestrictedFood>
+				<onlyHaveRaceRestrictedGenes>true</onlyHaveRaceRestrictedGenes>
+				<apparelList>
+					<li>BANW_Body_Hikali</li>
+					<li>BANW_Body_Nozomi</li>
+					<li>BANW_Body_Hoshiro</li>
+					<li>BANW_Body_Miyu</li>
+					<li>BANW_Body_Aoba</li>
+					<li>BANW_Body_Turugi</li>
+					<li>BANW_Body_Seia</li>
+					<li>BANW_Body_Asuna</li>
+					<li>BANW_Body_Miyako</li>
+					<li>BANW_Body_Shiroko</li>
+					<li>BANW_Body_Saki</li>
+					<li>BANW_Body_Akane</li>
+					<li>BANW_Body_Hasumi</li>
+
+					<li>BANC_hat_1</li>
+					<li>BANC_glove_1</li>
+					<li>BANC_Amulet_1</li>
+					<li>BANC_Bag_1</li>
+					<li>BANC_Badge_1</li>
+					<li>BANC_Shoes_1</li>
+					<li>BANC_Hairpin_1</li>
+					<li>BANC_Watch_1</li>
+					<li>BANC_Necklace_1</li>
+				</apparelList>
+				
+				<whiteApparelList>
+					<li>Apparel_ShieldBelt</li>
+					<li>Apparel_SmokepopBelt</li>
+					<li>Apparel_FirefoampopPack</li>
+					<li>Apparel_PsychicShockLance</li>
+					<li>Apparel_PsychicInsanityLance</li>
+					<li>OrbitalTargeterBombardment</li>
+					<li>OrbitalTargeterPowerBeam</li>
+					<li>TornadoGenerator</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PackJump</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PackBroadshield</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_HeavyShield</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackBandwidth</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackTox</li>
+				</whiteApparelList>
+				<whiteGeneTags>
+				</whiteGeneTags>
+			</raceRestriction>
+		</alienRace>
+
+		<tools>
+			<li>
+				<label>左手</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>右手</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+
+
+
+		<race>
+			<hasCorpse>false</hasCorpse>
+			<renderTree>Humanlike</renderTree>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<body Inherit="false">BANW_kivotos</body>
+			<useMeatFrom>Human</useMeatFrom>
+			<baseBodySize>1</baseBodySize>
+			<baseHealthScale>2.5</baseHealthScale>
+			<foodType>OmnivoreHuman</foodType>
+			<lifeExpectancy>80</lifeExpectancy>
+			<leatherDef>Leather_Human</leatherDef>
+			<hasGenders>true</hasGenders>
+			<gestationPeriodDays>18</gestationPeriodDays>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+            <baseHealthScale>5</baseHealthScale><!--		        ■血量-->
+            <baseHungerRate>1.5</baseHungerRate>
+			<bloodDef>Filth_Blood</bloodDef>
+			<bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+			<canBecomeShambler>true</canBecomeShambler>
+			<knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
+			<anomalyKnowledge>1</anomalyKnowledge>
+			<makesFootprints>true</makesFootprints>
+
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 0.30)</li>
+					<li>(2, 0.40)</li>
+					<li>(3, 0.10)</li>
+					<li>(4, 0.20)</li>
+					<li>(5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+					<def>BANW_KivotosStudent_Adult</def>
+					<minAge>0</minAge>
+				</li>
+				
+			</lifeStageAges>
+            <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+				<Firefighter>0</Firefighter>
+				<Patient>0</Patient>
+				<Doctor>0</Doctor>
+				<PatientBedRest>0</PatientBedRest>
+				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+				<BasicWorker>0</BasicWorker>
+				<Warden>0</Warden>
+				<Handling>0</Handling>
+				<Cooking>0</Cooking>
+				<Hunting>0</Hunting>
+				<Construction>0</Construction>
+				<Growing>0</Growing>
+				<Mining>0</Mining>
+				<PlantCutting>0</PlantCutting>
+				<Smithing>0</Smithing>
+				<Tailoring>0</Tailoring>
+				<Art>0</Art>
+				<Crafting>0</Crafting>
+				<Hauling>0</Hauling>
+				<Cleaning>0</Cleaning>
+				<Research>0</Research>
+			</lifeStageWorkSettings>
+
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<ageGenerationCurve Inherit="false">
+				<points>
+					<li>(10,0)</li>
+					<li>(16,100)</li>
+					<li>(40,100)</li>
+					<li>(50,30)</li>
+					<li>(60,18)</li>
+					<li>(65,10)</li>
+					<li>(70,3)</li>
+					<li>(80,0)</li>
+				</points>
+			</ageGenerationCurve>
+		</race>
+
+		<!--数据需要调整-->
+		<statBases>
+			<RoyalFavorValue>3</RoyalFavorValue><!--		        ■荣誉点数-->
+			<MarketValue>100</MarketValue><!--		                ■价格-->
+			<Mass>50</Mass><!--		                                ■重量-->
+			<MoveSpeed>4.50</MoveSpeed><!--		                    ■移动速度-->
+			<Flammability>0.6</Flammability><!--		            ■易燃性-->
+			<ComfyTemperatureMax>30</ComfyTemperatureMax><!--		■最高适应温度-->
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin><!--		■最低适应温度-->
+			<ImmunityGainSpeed>0.9</ImmunityGainSpeed><!--		    ■免疫增益速度-->
+			<CarryingCapacity>60</CarryingCapacity><!--		        ■承载力-->
+			<PainShockThreshold>0.5</PainShockThreshold><!--		■疼痛忍受力-->
+			<ToxicResistance>0.5</ToxicResistance><!--		        ■毒性-->
+			<MeatAmount>1</MeatAmount><!--		                    ■肉-->
+			<LeatherAmount>1</LeatherAmount><!--		            ■皮-->
+			<AimingDelayFactor>1.2</AimingDelayFactor><!--		    ■瞄准延迟系数-->
+			<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn><!--	■射撃命中補正-->
+			<PlantWorkSpeed>1.1</PlantWorkSpeed><!--		        ■种植速度-->
+			<ConstructionSpeed>1.15</ConstructionSpeed><!--		    ■建筑速度-->
+			<ResearchSpeed>1.0</ResearchSpeed><!--		            ■研究速度-->
+		<SocialImpact>1.00</SocialImpact><!--		                ■社会影响-->
+		<IncomingDamageFactor>1</IncomingDamageFactor><!--		    ■收到的伤害倍率-->
+		<MentalBreakThreshold>0.25</MentalBreakThreshold><!--		■容易精神崩溃-->
+		<PsychicSensitivity>1.5</PsychicSensitivity><!--			■心里敏感-->
+		<MeleeDodgeChance>1</MeleeDodgeChance><!--					■回避補正-->
+		<ArmorRating_Blunt>0.05</ArmorRating_Blunt><!--				■打撃耐性-->
+		<ArmorRating_Sharp>0.05</ArmorRating_Sharp><!--				■刺突耐性-->
+		<ArmorRating_Heat>0.05</ArmorRating_Heat><!--				■熱耐性-->
+		<NegotiationAbility>1.0</NegotiationAbility><!--			■外交補正 -->
+		<SellPriceFactor>0.6</SellPriceFactor> <!--					■取引価格補正 -->
+		<TameAnimalChance>0.5</TameAnimalChance> <!--				■手なづけ補正-->
+		<TrainAnimalChance>0.5</TrainAnimalChance> <!--				■調教補正-->
+		<RestRateMultiplier>1.0</RestRateMultiplier><!--			■睡眠効率-->
+		<WorkSpeedGlobal>1</WorkSpeedGlobal><!--					■基本作業速度-->
+		<GeneralLaborSpeed>1</GeneralLaborSpeed><!--				■一般的作業速度-->
+		<MedicalTendSpeed>1</MedicalTendSpeed><!--				    ■医療速度補正-->
+		<ResearchSpeed>1</ResearchSpeed><!--						■研究速度補正-->
+		<MiningSpeed>1</MiningSpeed><!--							■採掘速度補正-->
+		<ConstructionSpeedFactor>1</ConstructionSpeedFactor><!--	■建設速度-->
+		<SmoothingSpeed>1</SmoothingSpeed><!--					    ■石を滑らかにする速度-->
+		<AnimalGatherSpeed>1</AnimalGatherSpeed><!--				■動物から採取する速度-->
+		<ButcheryMechanoidSpeed>1</ButcheryMechanoidSpeed><!--	    ■機械分解作業速度-->
+		</statBases>
+
+		<recipes>
+			<li>ExciseCarcinoma</li>
+			<li>AdministerMechSerumHealer</li>
+			<li>RemoveBodyPart</li>
+			<li>Euthanize</li>
+			<li>Anesthetize</li>
+		</recipes>
+
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="BANC_Apparel_Base">
+        <defName>BANC_Amulet_1</defName>
+        <label>交通安全护身符</label>
+        <description>交通安全护身符</description>
+        <graphicData><!--需要一个衣服的通用物品贴图-->
+            <texPath>Belt/Amulet_1</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Belt/Amulet_1</wornGraphicPath>
+            <bodyPartGroups>
+              <li>Eyes</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>BANC_Amulet_1</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="BANC_Apparel_Base">
+        <defName>BANC_Watch_1</defName>
+        <label>防水数码手表</label>
+        <description>防水数码手表</description>
+        <graphicData><!--需要一个衣服的通用物品贴图-->
+            <texPath>Belt/Watch_1</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+         <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.3</ArmorRating_Heat>   
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Belt/Watch_1</wornGraphicPath>
+            <bodyPartGroups>
+               <li>Eyes</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>BANC_Watch_1</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="BANC_Apparel_Base">
+        <defName>BANC_Necklace_1</defName>
+        <label>蓝牙项链</label>
+        <description>防水数码手表</description>
+        <graphicData><!--需要一个衣服的通用物品贴图-->
+            <texPath>Belt/Necklace_1</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+         <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.3</ArmorRating_Heat>   
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Belt/Necklace_1</wornGraphicPath>
+            <bodyPartGroups>
+               <li>Eyes</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>BANC_Necklace_body_1</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+</Defs>

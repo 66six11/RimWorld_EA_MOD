@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<EffecterDef>
+<defName>Hoshiro_HPP</defName>
+<children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass> <!-- 子特效类，使用概率喷洒器 -->
+       <positionRadius>0.15</positionRadius><!-- 生成位置的半径范围 -->
+       <fleckDef>BAWN_HPP</fleckDef><!-- 使用的Fleck特效定义 -->
+       <chancePerTick>0.9</chancePerTick><!-- 每个tick生成特效的概率 -->
+       <speed>2.5</speed><!-- 特效的速度 -->
+       <scale>0.8~1.2</scale> <!-- 特效的缩放比例范围 -->
+       <angle>-15~15</angle><!-- 特效的角度范围 -->
+
+
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass> <!-- 子特效类，使用概率喷洒器 -->
+       <positionRadius>0.15</positionRadius><!-- 生成位置的半径范围 -->
+       <fleckDef>BAWN_HPPP</fleckDef><!-- 使用的Fleck特效定义 -->
+       <chancePerTick>0.4</chancePerTick><!-- 每个tick生成特效的概率 -->
+       <speed>2.5</speed><!-- 特效的速度 -->
+       <scale>0.8~1.2</scale> <!-- 特效的缩放比例范围 -->
+
+       <positionLerpFactor>0.85</positionLerpFactor><!-- 位置插值因子，控制移动平滑度 -->
+       <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity><!-- 是否根据角度设置速度方向 -->
+      </li>
+</children>
+</EffecterDef>
+</Defs>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <TraitDef>
+        <defName>BAWC_TraitDef_Tank</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>职位:坦克</label>
+                <description>{PAWN_nameDef}的职位是坦克，负责抵挡伤害，防御与血量比其他职业高</description>
+                <marketValueFactorOffset>1</marketValueFactorOffset>
+                <statOffsets>
+                    <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+                    <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+                    <ArmorRating_Heat>0.20</ArmorRating_Heat>
+                    <Flammability>-1.0</Flammability>
+                    <PainShockThreshold>+0.15</PainShockThreshold>
+                    <IncomingDamageFactor>-0.15</IncomingDamageFactor>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>BAWC_TraitDef_Attack</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>职位:输出</label>
+                <description>{PAWN_nameDef}的职位是输出，负责进行高额伤害的输出，攻击力要比其他职业高</description>
+                <marketValueFactorOffset>1</marketValueFactorOffset>
+                <statOffsets>
+                    <AimingDelayFactor>-0.10</AimingDelayFactor>
+                    <RangedWeapon_Cooldown>-0.10</RangedWeapon_Cooldown>
+                    <BANW_RangedWeapon_Damage>+0.20</BANW_RangedWeapon_Damage>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>BAWC_TraitDef_Medical</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>职位:医疗</label>
+                <description>{PAWN_nameDef}的职位是医疗，拥有医疗技能，治疗速度和手术成功率会比较高。</description>
+                <marketValueFactorOffset>1</marketValueFactorOffset>
+                <statOffsets>
+                    <PainShockThreshold>+0.10</PainShockThreshold>
+                    <MedicalTendSpeed>+0.30</MedicalTendSpeed>
+		            <MedicalTendQuality>+0.25</MedicalTendQuality>
+                    <DrugSynthesisSpeed>+0.25</DrugSynthesisSpeed>
+                    <MedicalOperationSpeed>+0.15</MedicalOperationSpeed>
+		            <MedicalSurgerySuccessChance>+0.30</MedicalSurgerySuccessChance>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>BAWC_TraitDef_Assistant</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>职位:辅助</label>
+                <description>{PAWN_nameDef}的职位是辅助，拥有支援相关的技能，工作相关的能力会比较高。</description>
+                <marketValueFactorOffset>1</marketValueFactorOffset>
+                <statOffsets>
+                   <WorkSpeedGlobal>+0.30</WorkSpeedGlobal>
+                   <GlobalLearningFactor>+0.25</GlobalLearningFactor>
+                   <MoveSpeed>+1.0</MoveSpeed>
+                   <RestRateMultiplier>+0.20</RestRateMultiplier>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+</Defs>

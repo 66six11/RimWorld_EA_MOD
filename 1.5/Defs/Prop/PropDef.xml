@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<ThingDef ParentName="ResourceBase">
+<defName>Kami_Proplevel</defName>
+<label>神明精髓</label>
+<description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
+<stackLimit>300</stackLimit>
+<graphicData>
+      <texPath>Prop/Proplevel/Kami</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+</graphicData>
+<selectable>true</selectable>
+<size>(1, 1)</size>
+<thingClass>ThingWithComps</thingClass>
+<category>Item</category>
+<altitudeLayer>ItemLow</altitudeLayer>
+    <statBases>
+    <Flammability>0</Flammability>
+    <MarketValue>0.1</MarketValue>
+      <Mass>0.5</Mass> 
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <pathCost>15</pathCost>
+    <alwaysHaulable>true</alwaysHaulable> <!-- 添加可搬运属性 -->
+    <drawGUIOverlay>true</drawGUIOverlay> <!-- 显示数量浮标 -->
+ <thingCategories>
+  <li>ResourcesRaw</li>
+    </thingCategories>
+    </ThingDef>
+
+<ThingDef Parent="BaseResource">
+<defName>Miyu_Proplevel</defName>
+<label>美游的神明文字</label>
+<description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
+<stackLimit>300</stackLimit>
+<graphicData>
+      <texPath>Prop/Proplevel/Miyu</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+</graphicData>
+<selectable>true</selectable>
+<size>(1, 1)</size>
+<thingClass>ThingWithComps</thingClass>
+<category>Item</category>
+<altitudeLayer>ItemLow</altitudeLayer>
+    <statBases>
+    <Flammability>0</Flammability>
+    <MarketValue>0.1</MarketValue>
+      <Mass>0.5</Mass> 
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <pathCost>15</pathCost>
+    <alwaysHaulable>true</alwaysHaulable> <!-- 添加可搬运属性 -->
+    <drawGUIOverlay>true</drawGUIOverlay> <!-- 显示数量浮标 -->
+ <thingCategories>
+  <li>ResourcesRaw</li>
+    </thingCategories>
+    </ThingDef>
+
+    <ThingDef Parent="BaseResource">
+<defName>Miyako_Proplevel</defName>
+<label>宫子的神明文字</label>
+<description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
+<stackLimit>300</stackLimit>
+<graphicData>
+      <texPath>Prop/Proplevel/Miyako</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+</graphicData>
+<selectable>true</selectable>
+<size>(1, 1)</size>
+<thingClass>ThingWithComps</thingClass>
+<category>Item</category>
+<altitudeLayer>ItemLow</altitudeLayer>
+    <statBases>
+    <Flammability>0</Flammability>
+    <MarketValue>0.1</MarketValue>
+      <Mass>0.5</Mass> 
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <pathCost>15</pathCost>
+    <alwaysHaulable>true</alwaysHaulable> <!-- 添加可搬运属性 -->
+    <drawGUIOverlay>true</drawGUIOverlay> <!-- 显示数量浮标 -->
+ <thingCategories>
+  <li>ResourcesRaw</li>
+    </thingCategories>
+    </ThingDef>
+
+       <ThingDef Parent="BaseResource">
+<defName>Saki_Proplevel</defName>
+<label>咲希的神明文字</label>
+<description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
+<stackLimit>300</stackLimit>
+<graphicData>
+      <texPath>Prop/Proplevel/Saki</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+</graphicData>
+<selectable>true</selectable>
+<size>(1, 1)</size>
+<thingClass>ThingWithComps</thingClass>
+<category>Item</category>
+<altitudeLayer>ItemLow</altitudeLayer>
+    <statBases>
+    <Flammability>0</Flammability>
+    <MarketValue>0.1</MarketValue>
+      <Mass>0.5</Mass> 
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <pathCost>15</pathCost>
+    <alwaysHaulable>true</alwaysHaulable> <!-- 添加可搬运属性 -->
+    <drawGUIOverlay>true</drawGUIOverlay> <!-- 显示数量浮标 -->
+ <thingCategories>
+  <li>ResourcesRaw</li>
+    </thingCategories>
+    </ThingDef>
+
+     
+     <ThingDef Parent="BaseResource">
+<defName>Hoshiro_Proplevel</defName>
+<label>星野的神明文字</label>
+<description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
+<stackLimit>300</stackLimit>
+<graphicData>
+      <texPath>Prop/Proplevel/Hoshiro</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+</graphicData>
+<selectable>true</selectable>
+<size>(1, 1)</size>
+<thingClass>ThingWithComps</thingClass>
+<category>Item</category>
+<altitudeLayer>ItemLow</altitudeLayer>
+    <statBases>
+    <Flammability>0</Flammability>
+    <MarketValue>0.1</MarketValue>
+      <Mass>0.5</Mass> 
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <pathCost>15</pathCost>
+    <alwaysHaulable>true</alwaysHaulable> <!-- 添加可搬运属性 -->
+    <drawGUIOverlay>true</drawGUIOverlay> <!-- 显示数量浮标 -->
+ <thingCategories>
+  <li>ResourcesRaw</li>
+    </thingCategories>
+    </ThingDef>
+
+    <ThingDef Parent="BaseResource">
+<defName>Seia_Proplevel</defName>
+<label>圣娅的神明文字</label>
+<description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
+<stackLimit>300</stackLimit>
+<graphicData>
+      <texPath>Prop/Proplevel/Seia</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+</graphicData>
+<selectable>true</selectable>
+<size>(1, 1)</size>
+<thingClass>ThingWithComps</thingClass>
+<category>Item</category>
+<altitudeLayer>ItemLow</altitudeLayer>
+    <statBases>
+    <Flammability>0</Flammability>
+    <MarketValue>0.1</MarketValue>
+      <Mass>0.5</Mass> 
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <pathCost>15</pathCost>
+    <alwaysHaulable>true</alwaysHaulable> <!-- 添加可搬运属性 -->
+    <drawGUIOverlay>true</drawGUIOverlay> <!-- 显示数量浮标 -->
+ <thingCategories>
+  <li>ResourcesRaw</li>
+    </thingCategories>
+    </ThingDef>
+
+    <ThingDef Parent="BaseResource">
+<defName>Turugi_Proplevel</defName>
+<label>鹤城的神明文字</label>
+<description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
+<stackLimit>300</stackLimit>
+<graphicData>
+      <texPath>Prop/Proplevel/Turugi</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+</graphicData>
+<selectable>true</selectable>
+<size>(1, 1)</size>
+<thingClass>ThingWithComps</thingClass>
+<category>Item</category>
+<altitudeLayer>ItemLow</altitudeLayer>
+    <statBases>
+    <Flammability>0</Flammability>
+    <MarketValue>0.1</MarketValue>
+      <Mass>0.5</Mass> 
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <pathCost>15</pathCost>
+    <alwaysHaulable>true</alwaysHaulable> <!-- 添加可搬运属性 -->
+    <drawGUIOverlay>true</drawGUIOverlay> <!-- 显示数量浮标 -->
+ <thingCategories>
+  <li>ResourcesRaw</li>
+    </thingCategories>
+    </ThingDef>
+        <ThingDef Parent="BaseResource">
+<defName>Hasumi_Proplevel</defName>
+<label>莲见的神明文字</label>
+<description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
+<stackLimit>300</stackLimit>
+<graphicData>
+      <texPath>Prop/Proplevel/Hasumi</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+</graphicData>
+<selectable>true</selectable>
+<size>(1, 1)</size>
+<thingClass>ThingWithComps</thingClass>
+<category>Item</category>
+<altitudeLayer>ItemLow</altitudeLayer>
+    <statBases>
+    <Flammability>0</Flammability>
+    <MarketValue>0.1</MarketValue>
+      <Mass>0.5</Mass> 
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <pathCost>15</pathCost>
+    <alwaysHaulable>true</alwaysHaulable> <!-- 添加可搬运属性 -->
+    <drawGUIOverlay>true</drawGUIOverlay> <!-- 显示数量浮标 -->
+ <thingCategories>
+  <li>ResourcesRaw</li>
+    </thingCategories>
+    </ThingDef>
+    <defName>Asuna_Proplevel</defName>
+<label>明日奈的神明文字</label>
+<description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
+<stackLimit>300</stackLimit>
+<graphicData>
+      <texPath>Prop/Proplevel/Asuna</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+</graphicData>
+<selectable>true</selectable>
+<size>(1, 1)</size>
+<thingClass>ThingWithComps</thingClass>
+<category>Item</category>
+<altitudeLayer>ItemLow</altitudeLayer>
+    <statBases>
+    <Flammability>0</Flammability>
+    <MarketValue>0.1</MarketValue>
+      <Mass>0.5</Mass> 
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <pathCost>15</pathCost>
+    <alwaysHaulable>true</alwaysHaulable> <!-- 添加可搬运属性 -->
+    <drawGUIOverlay>true</drawGUIOverlay> <!-- 显示数量浮标 -->
+ <thingCategories>
+  <li>ResourcesRaw</li>
+    </thingCategories>
+    </ThingDef>
+
+    <defName>Akane_Proplevel</defName>
+<label>朱音的神明文字</label>
+<description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
+<stackLimit>300</stackLimit>
+<graphicData>
+      <texPath>Prop/Proplevel/Akane</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+</graphicData>
+<selectable>true</selectable>
+<size>(1, 1)</size>
+<thingClass>ThingWithComps</thingClass>
+<category>Item</category>
+<altitudeLayer>ItemLow</altitudeLayer>
+    <statBases>
+    <Flammability>0</Flammability>
+    <MarketValue>0.1</MarketValue>
+      <Mass>0.5</Mass> 
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <pathCost>15</pathCost>
+    <alwaysHaulable>true</alwaysHaulable> <!-- 添加可搬运属性 -->
+    <drawGUIOverlay>true</drawGUIOverlay> <!-- 显示数量浮标 -->
+ <thingCategories>
+  <li>ResourcesRaw</li>
+    </thingCategories>
+    </ThingDef>
+
+    <defName>Aoba_Proplevel</defName>
+<label>青叶的神明文字</label>
+<description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
+<stackLimit>300</stackLimit>
+<graphicData>
+      <texPath>Prop/Proplevel/Aoba</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+</graphicData>
+<selectable>true</selectable>
+<size>(1, 1)</size>
+<thingClass>ThingWithComps</thingClass>
+<category>Item</category>
+<altitudeLayer>ItemLow</altitudeLayer>
+    <statBases>
+    <Flammability>0</Flammability>
+    <MarketValue>0.1</MarketValue>
+      <Mass>0.5</Mass> 
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <pathCost>15</pathCost>
+    <alwaysHaulable>true</alwaysHaulable> <!-- 添加可搬运属性 -->
+    <drawGUIOverlay>true</drawGUIOverlay> <!-- 显示数量浮标 -->
+ <thingCategories>
+  <li>ResourcesRaw</li>
+    </thingCategories>
+    </ThingDef>
+
+    <defName>Aoba_Proplevel</defName>
+<label>青叶的神明文字</label>
+<description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
+<stackLimit>300</stackLimit>
+<graphicData>
+      <texPath>Prop/Proplevel/Aoba</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+</graphicData>
+<selectable>true</selectable>
+<size>(1, 1)</size>
+<thingClass>ThingWithComps</thingClass>
+<category>Item</category>
+<altitudeLayer>ItemLow</altitudeLayer>
+    <statBases>
+    <Flammability>0</Flammability>
+    <MarketValue>0.1</MarketValue>
+      <Mass>0.5</Mass> 
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <pathCost>15</pathCost>
+    <alwaysHaulable>true</alwaysHaulable> <!-- 添加可搬运属性 -->
+    <drawGUIOverlay>true</drawGUIOverlay> <!-- 显示数量浮标 -->
+ <thingCategories>
+  <li>ResourcesRaw</li>
+    </thingCategories>
+    </ThingDef>
+
+    <defName>Hikali_Proplevel</defName>
+<label>光的神明文字</label>
+<description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
+<stackLimit>300</stackLimit>
+<graphicData>
+      <texPath>Prop/Proplevel/Hikali</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+</graphicData>
+<selectable>true</selectable>
+<size>(1, 1)</size>
+<thingClass>ThingWithComps</thingClass>
+<category>Item</category>
+<altitudeLayer>ItemLow</altitudeLayer>
+    <statBases>
+    <Flammability>0</Flammability>
+    <MarketValue>0.1</MarketValue>
+      <Mass>0.5</Mass> 
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <pathCost>15</pathCost>
+    <alwaysHaulable>true</alwaysHaulable> <!-- 添加可搬运属性 -->
+    <drawGUIOverlay>true</drawGUIOverlay> <!-- 显示数量浮标 -->
+ <thingCategories>
+  <li>ResourcesRaw</li>
+    </thingCategories>
+    </ThingDef>
+
+     <defName>Nozomi_Proplevel</defName>
+<label>望的神明文字</label>
+<description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
+<stackLimit>300</stackLimit>
+<graphicData>
+      <texPath>Prop/Proplevel/Nozomi</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+</graphicData>
+<selectable>true</selectable>
+<size>(1, 1)</size>
+<thingClass>ThingWithComps</thingClass>
+<category>Item</category>
+<altitudeLayer>ItemLow</altitudeLayer>
+    <statBases>
+    <Flammability>0</Flammability>
+    <MarketValue>0.1</MarketValue>
+      <Mass>0.5</Mass> 
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <pathCost>15</pathCost>
+    <alwaysHaulable>true</alwaysHaulable> <!-- 添加可搬运属性 -->
+    <drawGUIOverlay>true</drawGUIOverlay> <!-- 显示数量浮标 -->
+ <thingCategories>
+  <li>ResourcesRaw</li>
+    </thingCategories>
+    </ThingDef>
+
+    <defName>Shiroko_Proplevel</defName>
+<label>白子的神明文字</label>
+<description>一种神秘的文字，蕴含着未知的力量。似乎只能用于某些特殊的制作</description>
+<stackLimit>300</stackLimit>
+<graphicData>
+      <texPath>Prop/Proplevel/Shiroko</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+</graphicData>
+<selectable>true</selectable>
+<size>(1, 1)</size>
+<thingClass>ThingWithComps</thingClass>
+<category>Item</category>
+<altitudeLayer>ItemLow</altitudeLayer>
+    <statBases>
+    <Flammability>0</Flammability>
+    <MarketValue>0.1</MarketValue>
+      <Mass>0.5</Mass> 
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <pathCost>15</pathCost>
+    <alwaysHaulable>true</alwaysHaulable> <!-- 添加可搬运属性 -->
+    <drawGUIOverlay>true</drawGUIOverlay> <!-- 显示数量浮标 -->
+ <thingCategories>
+  <li>ResourcesRaw</li>
+    </thingCategories>
+    </ThingDef>
+
+</Defs>

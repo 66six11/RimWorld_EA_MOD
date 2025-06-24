@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  	<ThingCategoryDef>
+		<defName>BAWN_Costume</defName>
+		<label>基沃托斯服装</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>BAWN_Costume_Belt</defName>
+		<label>基沃托斯装备</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+        <defName>BANC_Weapon</defName>
+        <label>碧蓝档案枪械专武</label>
+        <parent>Weapons</parent>
+    </ThingCategoryDef>
+</Defs>

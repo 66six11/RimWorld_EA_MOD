@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Hikali_race</defName>
+		<label>光</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Hikali_Proplevel>50</Hikali_Proplevel>
+			<Kami_Proplevel>30</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Nozomi_race</defName>
+		<label>望</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Nozomi_Proplevel>50</Nozomi_Proplevel>
+			<Kami_Proplevel>30</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Aoba_race</defName>
+		<label>青叶</label>
+		<description>[PlaceHolder]</description>
+		<race>
+        <baseHealthScale>7</baseHealthScale>
+		</race>
+		<killedLeavingsRanges>
+			<Nozomi_Proplevel>1</Nozomi_Proplevel>
+			<Kami_Proplevel>1</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Asuna_race</defName>
+		<label>明日奈</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Asuna_Proplevel>1</Asuna_Proplevel>
+			<Kami_Proplevel>1</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Hoshiro_race</defName>
+		<label>星野</label>
+		<description>[PlaceHolder]</description>
+		
+		<race>
+		<lifeStageAges>
+		<li>
+		<def>BANW_KivotosStudent_Adult</def>
+		<minAge>0</minAge>
+		</li>
+		</lifeStageAges>
+		
+        <baseHealthScale>7</baseHealthScale>
+		</race>
+		<killedLeavingsRanges>
+			<Hoshiro_Proplevel>50</Hoshiro_Proplevel>
+			<Kami_Proplevel>30</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Miyako_race</defName>
+		<label>宫子</label>
+		<description>[PlaceHolder]</description>
+		<race>
+        <baseHealthScale>7</baseHealthScale>
+		</race>
+		<killedLeavingsRanges>
+			<Miyako_Proplevel>50</Miyako_Proplevel>
+			<Kami_Proplevel>30</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Miyu_race</defName>
+		<label>美游</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Miyu_Proplevel>50</Miyu_Proplevel>
+			<Kami_Proplevel>30</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Seia_race</defName>
+		<label>圣娅</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Seia_Proplevel>50</Seia_Proplevel>
+			<Kami_Proplevel>30</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Shiroko_race</defName>
+		<label>白子</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Shiroko_Proplevel>50</Shiroko_Proplevel>
+			<Kami_Proplevel>30</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Turugi_race</defName>
+		<label>鹤城</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Turugi_Proplevel>50</Turugi_Proplevel>
+			<Kami_Proplevel>30</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+	
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Saki_race</defName>
+		<label>咲希</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Saki_Proplevel>50</Saki_Proplevel>
+			<Kami_Proplevel>30</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Akane_race</defName>
+		<label>朱音</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Akane_Proplevel>10</Akane_Proplevel>
+			<Kami_Proplevel>5</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Hasumi_race</defName>
+		<label>莲见</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Hasumi_Proplevel>10</Hasumi_Proplevel>
+			<Kami_Proplevel>5</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Mika_race</defName>
+		<label>未花</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Mika_Proplevel>50</Mika_Proplevel>
+			<Kami_Proplevel>30</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Moe_race</defName>
+		<label>萌绘</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Moe_Proplevel>50</Moe_Proplevel>
+			<Kami_Proplevel>30</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Mashiro_race</defName>
+		<label>真白</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Mashiro_Proplevel>50</Mashiro_Proplevel>
+			<Kami_Proplevel>30</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+
+	 <AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Nero_race</defName>
+		<label>妮露</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Nero_Proplevel>50</Nero_Proplevel>
+			<Kami_Proplevel>30</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Ichika_race</defName>
+		<label>一花</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Ichika_Proplevel>50</Ichika_Proplevel>
+			<Kami_Proplevel>30</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+
+	<AlienRace.ThingDef_AlienRace ParentName="BANW_KivotosStudent">
+		<defName>BANW_Karlin_race</defName>
+		<label>花凛</label>
+		<description>[PlaceHolder]</description>
+		<killedLeavingsRanges>
+			<Karlin_Proplevel>50</Karlin_Proplevel>
+			<Kami_Proplevel>30</Kami_Proplevel>
+		</killedLeavingsRanges>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HediffDef>
+        <defName>BANC_BluetoothAmulet_One</defName>
+        <label>交通安全护身符Buff</label>
+        <description>佩戴交通安全护身符时提供轻微的意识。</description>
+
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+
+   <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>+0.1</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+        <comps>
+            <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>BANC_BluetoothAmulet_Tow</defName>
+        <label>暖手贴Buff</label>
+        <description>佩戴暖手贴时提供轻微的意识。</description>
+
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+
+   <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>+0.15</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+        <comps>
+            <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+        </comps>
+    </HediffDef>
+</Defs>

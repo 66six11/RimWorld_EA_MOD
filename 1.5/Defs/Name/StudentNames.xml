@@ -1,0 +1,194 @@
+<Defs>
+<RulePackDef>
+		<defName>NamerHikali</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Hikali]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Hikali</keyword>
+					<path>Names/Hikali</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>NamerMiyu</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Miyu]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Miyu</keyword>
+					<path>Names/Miyu</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>NamerNozomi</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Nozomi]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Nozomi</keyword>
+					<path>Names/Nozomi</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerHoshiro</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Hoshiro]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Hoshiro</keyword>
+					<path>Names/Hoshiro</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerAoba</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Aoba]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Aoba</keyword>
+					<path>Names/Aoba</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerTurugi</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Turugi]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Turugi</keyword>
+					<path>Names/Turugi</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerSeia</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Seia]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Seia</keyword>
+					<path>Names/Seia</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	
+    <RulePackDef>
+		<defName>NamerAsuna</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Asuna]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Asuna</keyword>
+					<path>Names/Asuna</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerMiyako</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Miyako]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Miyako</keyword>
+					<path>Names/Miyako</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerShiroko</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Shiroko]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Shiroko</keyword>
+					<path>Names/Shiroko</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerSaki</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Saki]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Saki</keyword>
+					<path>Names/Saki</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerAkane</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Akane]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Akane</keyword>
+					<path>Names/Akane</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerHasumi</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Hasumi]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Hasumi</keyword>
+					<path>Names/Hasumi</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+</Defs>

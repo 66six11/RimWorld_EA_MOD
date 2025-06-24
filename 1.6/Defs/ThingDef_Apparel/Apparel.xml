@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!--衣服-->
+    <ThingDef Name="BANW_Apparel_Base" ParentName="ApparelBase" Abstract="True">
+        <smeltable/>
+		<useHitPoints>false</useHitPoints>
+        <statBases>
+            <MarketValue>1</MarketValue>
+            <Mass>1.0</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.05</ArmorRating_Heat>
+			<Insulation_Cold>18</Insulation_Cold>
+			<Insulation_Heat>18</Insulation_Heat>
+        </statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li><!--躯干-->
+				<li>Neck</li><!--脖子-->
+				<li>Shoulders</li><!--肩膀-->
+				<li>Arms</li><!--臂-->
+				<li>Legs</li><!--腿-->
+				<li>FullHead</li><!--头-->
+				<li>Feet</li><!--脚-->
+				<li>Waist</li><!--腰-->
+				<li>Hands</li><!--手-->
+			</bodyPartGroups>
+		    <layers>
+			    <li>Shell</li>
+		    </layers>
+		</apparel>
+		<thingCategories>
+			<li>BAWN_Costume</li>
+		</thingCategories>
+    </ThingDef>
+<!--A饰品-->
+     <ThingDef Name="BANC_Apparel_Base" ParentName="ApparelNoQualityBase" Abstract="true">
+        <smeltable/>
+		<useHitPoints>false</useHitPoints>
+		<graphicData>
+			<drawSize>0.8</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+		</graphicData>
+        
+        <statBases>
+            <MarketValue>1</MarketValue>
+            <Mass>1.0</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<ArmorRating_Sharp>0</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0</ArmorRating_Blunt>
+			<ArmorRating_Heat>0</ArmorRating_Heat>
+			<Insulation_Cold>0</Insulation_Cold>
+			<Insulation_Heat>0</Insulation_Heat>
+        </statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li><!--躯干-->
+				<li>Neck</li><!--脖子-->
+				<li>Shoulders</li><!--肩膀-->
+				<li>Arms</li><!--臂-->
+				<li>Legs</li><!--腿-->
+				<li>FullHead</li><!--头-->
+				<li>Feet</li><!--脚-->
+				<li>Waist</li><!--腰-->
+				<li>Hands</li><!--手-->
+			</bodyPartGroups>
+
+		</apparel>
+		<tradeability>Buyable</tradeability>
+		<thingCategories>
+			<li>BAWN_Costume_Belt</li>
+		</thingCategories>
+    </ThingDef>
+<!--B饰品-->
+	<ThingDef Name="BANC_Apparel_Base_Tow" ParentName="ApparelNoQualityBase" Abstract="true">
+        <smeltable/>
+		<useHitPoints>false</useHitPoints>
+		<graphicData>
+			<drawSize>0.8</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+		</graphicData>
+        
+        <statBases>
+            <MarketValue>1</MarketValue>
+            <Mass>1.0</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<ArmorRating_Sharp>0</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0</ArmorRating_Blunt>
+			<ArmorRating_Heat>0</ArmorRating_Heat>
+			<Insulation_Cold>0</Insulation_Cold>
+			<Insulation_Heat>0</Insulation_Heat>
+        </statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li><!--躯干-->
+				<li>Neck</li><!--脖子-->
+				<li>Shoulders</li><!--肩膀-->
+				<li>Arms</li><!--臂-->
+				<li>Legs</li><!--腿-->
+				<li>FullHead</li><!--头-->
+				<li>Feet</li><!--脚-->
+				<li>Waist</li><!--腰-->
+				<li>Hands</li><!--手-->
+			</bodyPartGroups>
+
+		</apparel>
+		<tradeability>None</tradeability>
+		<thingCategories>
+			<li>BAWN_Costume_Belt</li>
+		</thingCategories>
+    </ThingDef>
+    
+</Defs>

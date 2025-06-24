@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<SoundDef>
+    <defName>Hoshiro_Skill</defName>
+    <maxVoices>1</maxVoices>
+    <context>MapOnly</context>  
+	<maxSimultaneous>1</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Ability/Hoshiro/Hoshiro_Skill</clipPath>
+          </li>
+        </grains>
+        <volumeRange>70</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+<SoundDef>
+	<defName>Hoshiro_Skill_EX</defName>    
+	<maxVoices>1</maxVoices>
+  <context>MapOnly</context>  
+	<maxSimultaneous>1</maxSimultaneous>  
+	<subSounds>
+		<li>
+			<onCamera>True</onCamera>      
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Ability/Hoshiro/Hoshiro_Skill_EX</clipPath>
+				</li>
+			</grains>      
+			<volumeRange>70~70</volumeRange>
+		</li>
+	</subSounds>
+</SoundDef>
+<SoundDef>
+    <defName>Hoshiro_ExSkill</defName>
+    <maxVoices>1</maxVoices> 
+    <context>MapOnly</context> 
+	<maxSimultaneous>1</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Ability/Hoshiro/Hoshiro_ExSkill</clipPath>
+          </li>
+        </grains>
+        <volumeRange>70</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef><!--受伤-->
+    <defName>Hoshiro_Battle_Death</defName>
+    <maxVoices>1</maxVoices> 
+    <context>MapOnly</context> 
+	<maxSimultaneous>1</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Hoshiro/Hoshiro_Battle_Death</clipPath>
+          </li>
+        </grains>
+        <volumeRange>70</volumeRange>
+        <distRange>0~70</distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

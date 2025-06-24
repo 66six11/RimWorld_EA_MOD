@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentAdult</defName>
+		<title>基沃托斯学生</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]出生于基沃托斯。\n\n现在她准备好战斗了.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+ 			<li>BANW_Backstory</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentSany</defName>
+		<title>圣三一综合学园</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是圣三一综合学园的一名学生，基沃托斯三大学院之一，其学生会名为“茶话会”。设有自警团、正义实现委员会、救护骑士团等许多社团。总体来说重视纪律和文化，学生们大多诚实善良，给人不谙世事的大小姐印象，内部的治安状况有序而稳定。自古以来就在基沃托斯推崇“文武双全”，是一所充满历史和传统气息的学园。当然，圣三一并不是完美的。在风平浪静的学院氛围下，也潜藏着诸多问题……和格赫娜在传统上是敌对关系。</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+ 			<li>BANW_BackstorySany</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentAbydos</defName>
+		<title>阿拜多斯高中</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是阿拜多斯高中的一名学生，阿拜多斯高中曾经面积广阔、人口众多，但随着来源不明的沙尘暴在区域内席卷，大部分土地都变成了沙漠，学生会为了阻止沙漠化蔓延却毫无成效，濒临破产废校，居民也逐渐迁出，繁华之地走向荒芜。目前仅剩废校对策委员会的五位成员还留在此地。</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+ 			<li>BANW_BackstoryAbydos</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentMillennium</defName>
+		<title>千禧年科学学院</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是千禧年的一名学生,基沃托斯三大学院之一。其学生会名为“研讨会”,由女仆组成的CC负责维持秩序,工程部也名声在外。正如名字所示,干禧最关注技术，基沃托斯的前沿发明几乎都出自他们之手。学生以理科生居多，不乏醉心学术对现实生活反而不太关心的怪异天才</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+ 			<li>BANW_BackstoryMillennium</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentGehena</defName>
+		<title>格黑娜学园</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是格黑娜的一名学生,基沃托斯三大学院之一，其学生会名为“万魔殿”。用两个词来概括这里的风气，就是“自由”和“混沌”，每天都有人惹是生非，让负责维持秩序的风纪委员会非常头疼。当然，拜这些随心所欲、行为出格的家伙们所赐，格赫娜的风纪委员也锻炼出了强大的实力。和圣三一的关系相当差，但最近似乎也有少许缓和的倾向。</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+ 			<li>BANW_BackstoryGehena</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentSrt</defName>
+		<title>SRT特殊学园</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是SRT的一名学生,SRT特殊学园是由联邦学生会长亲自创立的特殊部队,是在联邦学生会长的许可之下,为了治理瓦尔基里警察学校和各自治区风纪委员力不能及的D.U地区内部犯罪而设立的。拥有基沃托斯最先进的武器装备和最精英的团队。</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+ 			<li>BANW_BackstorySrt</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentHighland</defName>
+		<title>海兰德铁道学园</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是海兰德的一名学生,海兰德铁道学园是一所同时有着铁路运营和进行相关教育机能的独立学园。尽管海兰德并不拥有自己的自治区，但是海兰德实际控制的铁路及其沿线设施在职能上充当了海兰德的自治区。在管理着基沃托斯内部分铁路的同时，还有着其他多项业务。</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+ 			<li>BANW_BackstoryHighland</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentHikali</defName>
+		<title>橘光</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是海兰德铁道学园所属、CCC《管制中心》干部。
+在列车驾驶方面有卓越的才能，与其双胞胎妹妹望一同被选为干部。但是十分不擅长文件和管理业务。是忠实于当时的欲望，不在意他人目光的特殊性格，往往容易引发各种事件。
+“光选手，到——站——”</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryHikali</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentAoba</defName>
+		<title>青叶</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]隶属于海兰德铁道学院，货物输送管理部的工程师。
+虽然性格腼腆胆小，但是同样也有着会自然而然地发表毒舌言论的一面。大概是因为她说话的声音比较小，要分清是不是在毒舌有一定难度。经常被繁杂任务找上门，觉得不讲道理的事情太多，对这个世界怀有强烈的不满。
+“我，我觉得敲一敲应该就能修好……不行吗……这样啊……”</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryAoba</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentMiyu</defName>
+		<title>美游</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是sT特殊学园所属，RABBIT小队的狙击手。
+因为具有狙击手的才能而进入SRT特殊学院就读，然而学园却突然被关闭。现在过着和小队成员们一起在公园露宿的生活。存在感薄弱，虽然对狙击任务很有帮助，但不仅是敌人，就连队友也时常忘记她的存在。
+代号为「RABBIT 4」。
+"这，这里是RABBIT4……那个，刚才有叫我吗？"</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryMiyu</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentNozomi</defName>
+		<title>望</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是海兰德铁道学园所属，CCC（中央管制中心）的干部。
+性格开朗活泼，不拘小节。因此经常和双胞胎姐姐光一起引发麻烦。遇到有趣的事情就会沉迷其中，但在列车运行方面会认真负责。
+“噗哈哈！久等啦！”</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryNozomi</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentHoshiro</defName>
+		<title>星野</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是阿拜多斯高中所属，阿比多斯学生会的前副会长，现在担任对策委员会委员长的懒惰虫少女。
+特征是像大叔一样的口气，比起工作更喜欢玩乐。
+因此她平常老是被委员会的成员们骂，不过一旦任务开始，她就会为了保护其他成员在最前线奋战。
+“完全没睡到午觉耶，嘛，也没办法吧”</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryHoshiro</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentTurugi</defName>
+		<title>鹤城</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是圣三一综合学园所属，正义实现委员会的委员长，同时也是三一的战略兵器。
+生性好战且暴力，一旦遇到不满的事物就会先破坏再说。
+幸亏有副委员长莲见而勉强带领着正义实现委员会。虽然鹤城就像无法控制的狂犬，但在老师面前却会表现出如同藏不住害羞的少女的一面。
+“来吧，到了狩猎的时间啦～！”</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryTurugi</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentSeia</defName>
+		<title>圣娅</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]隶属于圣三一综合学园，圣三一学生分派之一桑库特斯分派的领导人。
+说起话来十分晦涩，令人难以理解。因为是个书虫，所以经常泡在大图书馆里。在痊愈后，她比以前更常表现出孩子气的一面来。
+“最终——道路将彼此交织”</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstorySeia</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentAsuna</defName>
+		<title>明日奈</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是千禧年科学学园所属，秘密组织【CC】的代理人。代号【零一】，是凭借卓越的野性直觉来克服重重难关的老手。虽然在任务中，擅自相信别人而暴露自己的真实身份，把可疑的东西全部弄坏等大量难以理解的行动，但最终还是取得了好的成果。</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryAsuna</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentMiyako</defName>
+		<title>宫子</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]SRT特殊学园所属，RABBIT小队的小队长。
+因为憧憬着前辈们的活跃而进入SRT特殊学园就读，然而学园却突然被关闭。
+现在过着和小队成员们一起在公园露宿的生活。因为表情的变化很少，也几乎不曾表露感情，身边的人都觉得她很木讷。不过其实时常在心里关心着队员们，拥有一颗温柔的心。
+代号为「RABBIT 1」。
+"这里是RABBIT1，即刻开始作战"</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryMiyako</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentShiroko</defName>
+		<title>白子</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]阿拜多斯高中所属，喜欢运动的阿比多斯对策委员会的突击队长。
+虽然给人沉默寡言且几乎没有表情变化的冷淡印象，但其实是个说她比任何人都珍惜阿比多斯高中也不为过的少女。
+为了复兴学园会不择手段，因此偶尔会提出令人意想不到的想法。
+“需要我的帮助？”</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryShiroko</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentSaki</defName>
+		<title>咲希</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]SRT特殊学园所属，RABBIT小队的尖兵。
+为了追求规矩严格的生活而进入SRT特殊学园就读，然而学园却突然被关闭。
+现在过着和小队成员们一起在公园露宿的生活。随身携带写着SRT学园战术的教科书，是重视原则行动的类型。
+因为有采集野菜和收集废弃品的兴趣，似乎对现在总是资源不足的公园生活能有各种帮助。
+代号为「RABBIT 2」
+"这里是RABBIT2，感度良好"</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstorySaki</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentAkane</defName>
+		<title>朱音</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是千禧年科学学园所属，秘密组织「CC」的特务。
+代号为「Zero Three」，专门负责「清扫」的成员。
+会以温柔的印象为武器潜入敌阵，用炸药把敌方阵营一扫而空，因而以「清扫专家」的绰号广为人知。</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryAkane</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentHasumi</defName>
+		<title>莲见</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是圣三一综合学园所属，正义实现委员会的第二把交椅。
+代替象征狂乱的部长鹤城，担任正义实现委员会的战术指挥官。
+因此，虽然第一眼看起来是沉稳知性、「这就是圣三一的学生」的模范学生，但她也毫无疑问是正义实现委员会的一员。
+比任何人都冷静，偶尔也会做出鲁莽的举动。
+—— 减肥中……</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryHasumi</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentMika</defName>
+		<title>未花</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是圣三一综合学园所属，构成圣三一的学生组织之一，「帕特尔」原领导人的少女。
+身为原茶话会的一人，与同为领导人的渚是幼驯染。但是因政治立场上的对立，会好好区分公私。总是露出愉快笑容，展现天真无邪一面的她，心中却似乎抱有无法对他人言说的烦恼。
+“嗯，久等啦！
+今后就全都交给我吧☆”</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryMika</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentMoe</defName>
+		<title>萌绘</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是SRT特殊学园所属，Rabbit小队的报务员。代号「Rabbit 3」。
+因为憧憬强大火力的SRT特殊学园武器而入学就读，但学园却突然关闭，现在和其他小队员一起露宿公园。拥着奇特的癖好，对于爆破或让事情功亏一篑感到愉悦，但身为报务员的能力无可置疑。重度爱好甜食，随时都会咬着棒棒糖。
+"这里是RABBIT3。下一个爆破地点在哪？"</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryMoe</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentMashiro</defName>
+		<title>真白</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]圣三一综合学园所属，正义实现委员会的率直成员。
+随身带着一把和身高不合的反器材步枪，默默执行火力支持任务的少女。
+平时虽然话少但并不怕生，也并非不擅长人际关系。如果提及和正义有关的话题，她反而会变得多话。
+“如果正义被需要的话，不管何处我都会前往”</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryMashiro</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentNero</defName>
+		<title>妮露</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是千禧科学学院所属，秘密组织「CC」的队长。
+乍看之下只是个在女仆装上穿着夹克的小小不良少女，但其实是拥有千禧学院最强战斗能力的特工。
+因此她的代号「Double O」被周围的人视为是誓约胜利的象征。
+“给我鼓起干劲哦。要全力上了！”</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryNero</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentIchika</defName>
+		<title>一花</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是圣三一综合学院所属的、正义实现委员会的一员。时刻都是一副稳重表情的，在各种各样学生组成的正义实现委员会中，主要担任着仲裁一职。与其他学院的关系也相对较好。擅长为人处事的性格并非与生俱来，而是努力而来的成果。
+“咦? 约定的时间还没到吧?让你久等了吗?”</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryIchika</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>BANW_StudentKarlin</defName>
+		<title>花凛</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是千禧科学学院所属，秘密组织「CC」的特工。
+代号为「Zero Two」，使用强大的火力负责后援。
+和看似凶恶的外表不同，其实是CC特工中最谨慎的人。
+每天在都为了阻止在作战中时常暴走的明日奈和茜而伤脑筋。
+“遵照主人的指示”</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>BANW_BackstoryKarlin</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+
+</Defs>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--星野-->
+  <ThingDef ParentName="BANC_BaseHumanMakeableGun">
+    <defName>BANC_Hoshiro</defName>
+    <label>荷鲁斯之眼</label>
+    <description>星野爱用的简洁造型的霰弹枪。基本上懒洋洋的她，但在枪的整备上绝不会懈怠。</description>
+    <graphicData>
+      <texPath>Weapon/Abydos/Hoshiro</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.3</drawSize>
+    </graphicData>
+    <weaponTags>
+      <li>BANC_Hoshiro</li>
+    </weaponTags>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <WorkToMake>80000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.91</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.96</AccuracyMedium>
+      <AccuracyLong>0.99</AccuracyLong>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedStatOffsets>
+     <!-- <SocialImpact>-0.35</SocialImpact>-->
+    </equippedStatOffsets>
+    <costList>
+      <Steel>800</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <Cloth>40</Cloth>
+    </costList>
+    <recipeMaker>
+      <!--<researchPrerequisite>BA_Weapon_SRT</researchPrerequisite>-->
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <displayPriority>440</displayPriority>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BANC_Bullet_Hoshiro</defaultProjectile>
+        <warmupTime>1.8</warmupTime>
+        <range>49</range>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>BANC_Bullet_Hoshiro</defName>
+    <label>荷鲁斯之眼子弹</label>
+    <projectile>
+      <damageDef>Blunt</damageDef><!--贯通-->
+      <damageAmountBase>29</damageAmountBase>
+      <stoppingPower>2</stoppingPower>
+      <armorPenetrationBase>0.3</armorPenetrationBase>
+      <speed>60</speed>
+    </projectile>
+    <graphicData>
+      <drawSize>5</drawSize>
+      <texPath>Projectile/Bullet_Hoshiro</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    
+  </ThingDef>
+
+<ThingDef ParentName="BANC_BaseHumanMakeableGun">
+    <defName>BANC_Shiroko</defName>
+    <label>WHITE FANG 465</label>
+    <description>白子的爱用突击步枪。一直都在好好地进行整备，所以无论何时都是没有问题的状态。</description>
+    <graphicData>
+      <texPath>Weapon/Abydos/Shiroko</texPath><!--贴图路径-->
+      <graphicClass>Graphic_Single</graphicClass><!--贴图-->
+      <drawSize>1.3</drawSize><!--贴图大小-->
+    </graphicData>
+    <weaponTags>
+      <li>BANC_Shiroko</li><!--武器Tag-->
+    </weaponTags>
+    <equippedAngleOffset>45</equippedAngleOffset><!--武器Tag-->
+    <soundInteract>Interact_Rifle</soundInteract><!--装备音效-->
+    <statBases>
+      <WorkToMake>80000</WorkToMake><!--制作时间-->
+      <Mass>3.5</Mass><!--重量-->
+      <AccuracyTouch>0.41</AccuracyTouch><!--贴近-->
+      <AccuracyShort>0.68</AccuracyShort><!--近-->
+      <AccuracyMedium>0.96</AccuracyMedium><!--中-->
+      <AccuracyLong>0.99</AccuracyLong><!--远-->
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown><!--冷却时间-->
+    </statBases>
+    <equippedStatOffsets>
+     <!-- <SocialImpact>-0.35</SocialImpact>--><!--社交增加-->
+    </equippedStatOffsets>
+    <costList>
+      <Steel>800</Steel><!--材料-->
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <Cloth>40</Cloth>
+    </costList>
+    <recipeMaker>
+      <!--<researchPrerequisite>BA_Weapon_SRT</researchPrerequisite>-->
+      <skillRequirements>
+        <Crafting>8</Crafting><!--需要的手工-->
+      </skillRequirements>
+      <displayPriority>440</displayPriority><!--优先级-->
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass><!--子弹类型-->
+        <hasStandardCommand>true</hasStandardCommand><!--子弹类型-->
+        <defaultProjectile>BANC_Bullet_Shiroko</defaultProjectile><!--子弹-->
+        <burstShotCount>3</burstShotCount><!--连射次数-->
+        <warmupTime>1.8</warmupTime><!--瞄准时间-->
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots><!--射速-->
+        <range>19.9</range><!--射距-->
+        <soundCast>Shot_AssaultRifle</soundCast><!--射击音效-->
+        <soundCastTail>GunTail_Heavy</soundCastTail><!--装填音效-->
+        <muzzleFlashScale>9</muzzleFlashScale><!--枪口闪光大小-->
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>BANC_Bullet_Shiroko</defName>
+    <label>WHITE FANG 465</label>
+    <projectile>
+      <damageDef>Bullet</damageDef><!--子弹类型--><!--爆发-->
+      <damageAmountBase>29</damageAmountBase><!--子弹伤害-->
+      <stoppingPower>2</stoppingPower><!--抑制-->
+      <armorPenetrationBase>0.3</armorPenetrationBase><!--穿透-->
+      <speed>60</speed><!--子弹速度-->
+    </projectile>
+    <graphicData>
+      <drawSize>4</drawSize>
+      <texPath>Projectile/Bullet_Shiroko</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+</Defs>
