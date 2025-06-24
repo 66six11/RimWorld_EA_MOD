@@ -1,11 +1,33 @@
 ### .NET 核心 ###
-bin/
-obj/
-out/
-*.user
+# User-specific files
 *.suo
-*.cache
-*.nupkg
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
 
 ### IDE ###
 .vs/
@@ -30,5 +52,4 @@ temp/
 *.tmp
 
 ### 操作系统文件 ###
-.DS_Store
 Thumbs.db
