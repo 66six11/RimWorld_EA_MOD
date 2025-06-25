@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<SoundDef>
+    <defName>Akane_Skill</defName><!--一技能语音-->
+    <maxVoices>1</maxVoices>
+    <context>MapOnly</context>  
+	<maxSimultaneous>1</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Ability/Akane/Akane_ExSkill_Level</clipPath>
+          </li>
+        </grains>
+        <volumeRange>140</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+<SoundDef>
+	<defName>Akane_Skill_EX</defName>  <!--一技能伤害-->  
+	<maxVoices>1</maxVoices>
+  <context>MapOnly</context>  
+	<maxSimultaneous>1</maxSimultaneous>  
+	<subSounds>
+		<li>
+			<onCamera>True</onCamera>      
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Ability/Akane/SFX_Skill_Akane_Ex</clipPath>
+				</li>
+			</grains>      
+			<volumeRange>70~70</volumeRange>
+		</li>
+	</subSounds>
+</SoundDef>
+<SoundDef>
+    <defName>Akane_ExSkill</defName><!--二技能语音-->  
+    <maxVoices>1</maxVoices> 
+    <context>MapOnly</context> 
+	<maxSimultaneous>1</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Ability/Akane/Akane_ExSkill</clipPath>
+          </li>
+        </grains>
+        <volumeRange>70</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Akane_ExxSkill</defName><!--二技能伤害-->  
+    <maxVoices>1</maxVoices> 
+    <context>MapOnly</context> 
+	<maxSimultaneous>1</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Ability/Akane/SFX_Skill_Akane_Ex_Hit</clipPath>
+          </li>
+        </grains>
+        <volumeRange>70</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

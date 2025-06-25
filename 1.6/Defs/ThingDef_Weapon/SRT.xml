@@ -223,7 +223,7 @@
     <graphicData>
       <texPath>Weapon/Srt/Moe</texPath><!--贴图路径-->
       <graphicClass>Graphic_Single</graphicClass><!--贴图-->
-      <drawSize>1.2</drawSize><!--贴图大小-->
+      <drawSize>0.8</drawSize><!--贴图大小-->
     </graphicData>
     <weaponTags>
       <li>BANC_Moe</li><!--武器Tag-->

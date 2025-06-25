@@ -4,26 +4,31 @@
 <defName>Hoshiro_HPP</defName>
 <children>
       <li>
-        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass> <!-- 子特效类，使用概率喷洒器 -->
-       <positionRadius>0.15</positionRadius><!-- 生成位置的半径范围 -->
-       <fleckDef>BAWN_HPP</fleckDef><!-- 使用的Fleck特效定义 -->
-       <chancePerTick>0.9</chancePerTick><!-- 每个tick生成特效的概率 -->
-       <speed>2.5</speed><!-- 特效的速度 -->
+       <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass> <!-- 子特效类，使用概率喷洒器 -->
+       <positionRadius>0.45</positionRadius><!-- 生成位置的半径范围 -->
+       <moteDef>BAWN_HPP</moteDef><!-- 使用的mote特效定义 -->
+       <chancePerTick>0.3</chancePerTick><!-- 每个tick生成特效的概率 -->
+       <speed>0.32~0.64</speed><!-- 特效的速度 -->
+       <rotationRate>0~0</rotationRate><!-- 旋转速率（不旋转） -->
        <scale>0.8~1.2</scale> <!-- 特效的缩放比例范围 -->
-       <angle>-15~15</angle><!-- 特效的角度范围 -->
-
-
+       <angle>0~0</angle><!-- 特效的角度范围 -->
+       <rotation>0~0</rotation><!-- 初始旋转角度（无偏转） -->
+       <airTime>0.8~1.6</airTime><!-- 粒子在空中持续的时间范围 -->
       </li>
-      <li>
-        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass> <!-- 子特效类，使用概率喷洒器 -->
-       <positionRadius>0.15</positionRadius><!-- 生成位置的半径范围 -->
-       <fleckDef>BAWN_HPPP</fleckDef><!-- 使用的Fleck特效定义 -->
-       <chancePerTick>0.4</chancePerTick><!-- 每个tick生成特效的概率 -->
-       <speed>2.5</speed><!-- 特效的速度 -->
-       <scale>0.8~1.2</scale> <!-- 特效的缩放比例范围 -->
 
-       <positionLerpFactor>0.85</positionLerpFactor><!-- 位置插值因子，控制移动平滑度 -->
-       <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity><!-- 是否根据角度设置速度方向 -->
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <moteDef>BAWN_HPPP</moteDef>
+        <spawnLocType>BetweenTouchingCells</spawnLocType>
+        <positionLerpFactor>0.49</positionLerpFactor>
+        <chancePerTick>0.3</chancePerTick>
+        <scale>0.34~0.54</scale>
+        <airTime>0.8~1.6</airTime>
+        <rotationRate>0~0</rotationRate>
+        <speed>0.32~0.64</speed>
+        <angle>0~0</angle>
+        <rotation>0~0</rotation>
+        <positionRadius>0.55</positionRadius>
       </li>
 </children>
 </EffecterDef>

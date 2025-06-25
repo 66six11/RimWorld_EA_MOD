@@ -8,6 +8,10 @@
 		<isFighter>true</isFighter>
 		<nameMaker>NamerAkane</nameMaker>
 		<defaultFactionType>PlayerColony</defaultFactionType>
+		<abilities>
+        <li>BAWN_Akane_EX</li>
+	    <li>BAWN_Akane_EXX</li>
+        </abilities>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>

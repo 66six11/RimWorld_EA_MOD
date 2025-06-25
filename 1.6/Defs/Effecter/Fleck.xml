@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 <FleckDef ParentName="FleckGlowDistortBackground"><!-- Fleck定义 -->
-<defName>BAWN_HPP</defName>
+<defName>BAWN_HPPp</defName>
 <altitudeLayer>MoteOverhead</altitudeLayer><!-- 特效的海拔层，设置为头顶显示 -->
 <fadeInTime>0.5</fadeInTime><!-- 特效淡入时间（秒） -->
 <solidTime>1.5</solidTime><!-- 特效持续可见时间（秒） -->
@@ -14,7 +14,7 @@
          </graphicData>
   </FleckDef>
   <FleckDef ParentName="FleckGlowDistortBackground"><!-- Fleck定义 -->
-<defName>BAWN_HPPP</defName>
+<defName>BAWN_HPPPp</defName>
 <altitudeLayer>MoteOverhead</altitudeLayer><!-- 特效的海拔层，设置为头顶显示 -->
 <fadeInTime>0.8</fadeInTime><!-- 特效淡入时间（秒） -->
 <solidTime>1.8</solidTime><!-- 特效持续可见时间（秒） -->

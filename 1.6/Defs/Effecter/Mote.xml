@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MoteBase"><!-- Mote向上浮动 -->
+    <defName>BAWN_HPP</defName>
+    <thingClass>MoteAttached</thingClass>
+    <graphicData><!-- 图形数据配置 -->
+      <texPath>Effect/HPP</texPath><!-- 纹理图片路径 -->
+      <shaderType>MoteGlow</shaderType><!-- 使用的着色器类型，用于发光效果 -->
+      <shaderParameters>
+
+      </shaderParameters>
+    </graphicData>
+
+    <altitudeLayer>MoteOverhead</altitudeLayer><!-- 显示层级，设置为最顶层 -->
+    <mote>
+      <fadeInTime>0.3</fadeInTime><!-- 淡入时间（秒） -->
+      <solidTime>0.7</solidTime><!-- 固定显示时间（秒） -->
+      <fadeOutTime>0.3</fadeOutTime> <!-- 淡出时间（秒） -->
+      <collide>false</collide><!-- 是否与其它物体碰撞 -->
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase"><!-- Mote向上浮动 -->
+    <defName>BAWN_HPPP</defName>
+    <thingClass>MoteAttached</thingClass>
+    <graphicData><!-- 图形数据配置 -->
+      <texPath>Effect/HPPP</texPath><!-- 纹理图片路径 -->
+      <shaderType>MoteGlow</shaderType><!-- 使用的着色器类型，用于发光效果 -->
+      <shaderParameters>
+
+      </shaderParameters>
+    </graphicData>
+
+    <altitudeLayer>MoteOverhead</altitudeLayer><!-- 显示层级，设置为最顶层 -->
+    <mote>
+      <fadeInTime>0.1</fadeInTime><!-- 淡入时间（秒） -->
+      <solidTime>0.8</solidTime><!-- 固定显示时间（秒） -->
+      <fadeOutTime>0.1</fadeOutTime><!-- 淡出时间（秒） -->
+      <collide>false</collide><!-- 是否与其它物体碰撞 -->
+    </mote>
+  </ThingDef>
+</Defs>
