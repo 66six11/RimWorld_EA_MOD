@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DamageDef>
+    <defName>BANC_Damage_Akane</defName><!--命名格式-->
+    <label>Bullet</label><!--描述-->
+    <workerClass>DamageWorker_Stab</workerClass><!--工作Class，一般直接复制粘贴原版的就足够了-->
+    <externalViolence>False</externalViolence><!--允许是否为暴力暴力伤害，true为原版子弹伤害表现，false会无视承伤系数，并且不再触发暴力相关的效果，也无法享受承伤系数的一些加成-->
+    <deathMessage>{0} 死于有品位的贯穿</deathMessage><!--死亡讯息-->
+    <hediff>Stab</hediff><!--健康，复制粘贴原版的一般都不管-->
+    <hasForcefulImpact>false</hasForcefulImpact>
+   <!-- <harmsHealth>false</harmsHealth>-->
+  <!--<makesBlood>false</makesBlood>-->
+    <additionalHediffs><!--额外健康-->
+      <li>
+        <hediff>BAWN_Akane_HediffDef</hediff><!--健康类型-->
+        <severityPerDamageDealt>1</severityPerDamageDealt><!--每点伤害增加的健康严重值-->
+      </li>
+    </additionalHediffs>
+    <harmAllLayersUntilOutside>False</harmAllLayersUntilOutside><!--是否对所有层级造成伤害，直到穿透到外部-->
+    <impactSoundType>Bullet</impactSoundType><!--撞击音效-->
+    <armorCategory>Sharp</armorCategory><!--护甲种类-->
+    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart><!--过度杀伤百分比以摧毁部件-->
+    <stabChanceOfForcedInternal>0.6</stabChanceOfForcedInternal><!--设置强制将伤害转为内部伤害的概率为 60%-->
+    <isRanged>true</isRanged><!--是否为远程武器-->
+    <makesAnimalsFlee>true</makesAnimalsFlee><!--是否使动物逃跑-->
+    <damageEffecter>BAWN_Akane_Ef</damageEffecter>
+
+  </DamageDef>
+
+</Defs>

@@ -136,6 +136,7 @@
       <stoppingPower>2</stoppingPower><!--抑制-->
       <armorPenetrationBase>0.3</armorPenetrationBase><!--穿透-->
       <speed>60</speed><!--子弹速度-->
+
     </projectile>
     <graphicData>
       <drawSize>4</drawSize>

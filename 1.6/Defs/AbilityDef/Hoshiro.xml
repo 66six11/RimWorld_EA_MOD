@@ -7,8 +7,8 @@
  <iconPath>Ability/Icon/Hoshiro_Treat</iconPath>
  <cooldownTicksRange>4800</cooldownTicksRange>
  <hotKey>Misc12</hotKey>
- <warmupStartSound>Hoshiro_Skill_EX</warmupStartSound>
-
+ <warmupStartSound>Hoshiro_Skill</warmupStartSound>
+<warmupEffecter>BANW_Effecter_A</warmupEffecter>
  <showPsycastEffects>False</showPsycastEffects><!-- 是否显示心灵异能特效（如光束、粒子） -->
  <stunTargetWhileCasting>True</stunTargetWhileCasting><!-- 施法时是否定身目标 -->  
  <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted><!-- 未征召状态下是否显示操作按钮 --> 
@@ -23,11 +23,12 @@
             <Ability_Duration>20</Ability_Duration>
  </statBases>
  <verbProperties>
- <soundCast>Hoshiro_Skill</soundCast>
+
+ <soundCast>Hoshiro_Skill_EX</soundCast>
  <verbClass>Verb_CastAbility</verbClass> <!-- 动词类，这里是触发型技能 -->
  <drawAimPie>False</drawAimPie><!-- 不绘制瞄准圈 -->
  <range>-1</range><!-- 作用范围：-1 表示只能近战接触 -->
- <warmupTime>2.5</warmupTime><!-- 前摇时间（单位：秒） -->
+ <warmupTime>0.5</warmupTime><!-- 前摇时间（单位：秒） -->
  <targetParams><!-- 目标参数设置 -->
   <canTargetSelf>true</canTargetSelf> <!-- 可以选自己 -->
   <canTargetPawns>false</canTargetPawns><!-- 不能选其他生物 -->
@@ -44,10 +45,6 @@
   <onlyApplyToSelf>true</onlyApplyToSelf> <!-- 仅对自己生效 -->
   <replaceExisting>false</replaceExisting><!-- 如果已有同类效果，则替换它 -->
   </li>
-  <li Class="CompProperties_AbilityEffecterOnTarget">
-  <effecterDef>Hoshiro_HPP</effecterDef>
-   <maintainForTicks>24</maintainForTicks>
-      </li>
   </comps>
     </AbilityDef>
 
@@ -74,6 +71,10 @@
         <li Class="HediffCompProperties_Disappears">
         <showRemainingTime>true</showRemainingTime>
         <disappearsAfterTicks>1200</disappearsAfterTicks>
+      </li>
+       <li Class="HediffCompProperties_Effecter">
+        <stateEffecter>Hoshiro_HPP</stateEffecter>
+        <maintainForTicks>24</maintainForTicks>
       </li>
       
     </comps>

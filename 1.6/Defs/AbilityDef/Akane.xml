@@ -8,7 +8,6 @@
  <cooldownTicksRange>4800</cooldownTicksRange>
  <hotKey>Misc12</hotKey>
  <warmupStartSound>Akane_Skill</warmupStartSound>
-
  <showPsycastEffects>False</showPsycastEffects><!-- 是否显示心灵异能特效（如光束、粒子） -->
  <stunTargetWhileCasting>True</stunTargetWhileCasting><!-- 施法时是否定身目标 -->  
  <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted><!-- 未征召状态下是否显示操作按钮 --> 
@@ -22,6 +21,7 @@
 
  </statBases>
  <verbProperties>
+ <warmupEffecter>BANW_Effecter_A</warmupEffecter>
  <soundCast>Akane_Skill_EX</soundCast>
  <verbClass>Verb_CastAbility</verbClass> <!-- 动词类，这里是触发型技能 -->
  <drawAimPie>true</drawAimPie><!-- 不绘制瞄准圈 -->
@@ -98,11 +98,9 @@
   </targetParams>
   </verbProperties>
   <comps>
- <li Class="CompProperties_AbilityLaunchProjectile">
-  <projectileDef>Akane_Bullt_EXX</projectileDef>
-
-
-  </li>
+<li Class="CompProperties_AbilityLaunchProjectile">
+        <projectileDef>Akane_Bullt_EXX</projectileDef>
+      </li>
   </comps>
     </AbilityDef>
     <ThingDef ParentName="BaseBullet">
@@ -113,13 +111,18 @@
     <texPath>Projectile/Bullet_Akane</texPath>
     <graphicClass>Graphic_Single</graphicClass>
   </graphicData>
-
   <projectile>
-    <damageDef>RangedStab</damageDef>
+    <damageDef>BANC_Damage_Akane</damageDef>
     <damageAmountBase>50</damageAmountBase>
     <armorPenetrationBase>1</armorPenetrationBase>
     <stoppingPower>2</stoppingPower>
     <speed>100</speed>
+  <!--  <extraDamages>
+      <li>
+        <def>BANC_Damage_Akane</def>
+        <amount>1</amount>
+      </li>
+    </extraDamages>-->
   </projectile>
 </ThingDef>
 
@@ -148,9 +151,49 @@
         <comps>
         <li Class="HediffCompProperties_Disappears">
         <showRemainingTime>true</showRemainingTime>
-        <disappearsAfterTicks>1200</disappearsAfterTicks>
+        <disappearsAfterTicks>1800</disappearsAfterTicks>
+        </li>
+         <li Class="HediffCompProperties_Effecter">
+        <stateEffecter>BAWN_Akane_Ef</stateEffecter>
       </li>
-      
     </comps>
     </HediffDef>
+
+     <ThingDef ParentName="MoteBase"><!-- Mote向上浮动 -->
+    <defName>BAWN_Akane_EX</defName>
+    <thingClass>MoteAttached</thingClass>
+    <drawOffscreen>true</drawOffscreen>
+    <graphicData><!-- 图形数据配置 -->
+      <texPath>Effect/Effect_Akane_A</texPath><!-- 纹理图片路径 -->
+      <shaderType></shaderType><!-- 使用的着色器类型，用于发光效果 -->
+      <drawSize>1</drawSize>
+      <shaderParameters>
+      </shaderParameters>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer><!-- 显示层级，设置为最顶层 -->
+    <mote>
+      <fadeInTime>0.1</fadeInTime><!-- 淡入时间（秒） -->
+      <solidTime>0.7</solidTime><!-- 固定显示时间（秒） -->
+      <fadeOutTime>0.1</fadeOutTime> <!-- 淡出时间（秒） -->
+      <collide>false</collide><!-- 是否与其它物体碰撞 -->
+    </mote>
+  </ThingDef>
+
+   <EffecterDef>
+    <defName>BAWN_Akane_Ef</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+        <moteDef>BAWN_Akane_EX</moteDef>
+        <scale>1</scale>
+        <burstCount>1</burstCount>
+        <positionOffset>(0, 0, 1)</positionOffset>
+        <angle>0~0</angle>
+       <rotation>0~0</rotation><!-- 初始旋转角度（无偏转） -->
+        <spawnLocType>OnSource</spawnLocType>
+        <ticksBetweenMotes>60</ticksBetweenMotes>
+        <attachToSpawnThing>true</attachToSpawnThing>
+      </li>
+    </children>
+  </EffecterDef>
 </Defs>

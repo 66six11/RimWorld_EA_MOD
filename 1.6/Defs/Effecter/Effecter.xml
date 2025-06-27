@@ -14,22 +14,92 @@
        <angle>0~0</angle><!-- 特效的角度范围 -->
        <rotation>0~0</rotation><!-- 初始旋转角度（无偏转） -->
        <airTime>0.8~1.6</airTime><!-- 粒子在空中持续的时间范围 -->
+       <spawnLocType>OnSource</spawnLocType>
+       <attachToSpawnThing>true</attachToSpawnThing>
       </li>
 
       <li>
-        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
-        <moteDef>BAWN_HPPP</moteDef>
-        <spawnLocType>BetweenTouchingCells</spawnLocType>
-        <positionLerpFactor>0.49</positionLerpFactor>
-        <chancePerTick>0.3</chancePerTick>
-        <scale>0.34~0.54</scale>
-        <airTime>0.8~1.6</airTime>
-        <rotationRate>0~0</rotationRate>
-        <speed>0.32~0.64</speed>
-        <angle>0~0</angle>
-        <rotation>0~0</rotation>
-        <positionRadius>0.55</positionRadius>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass> <!-- 使用随机喷雾特效器，控制粒子按概率生成 -->
+        <moteDef>BAWN_HPPP</moteDef> <!-- 粒子效果资源名称，定义具体显示的纹理或动画 -->
+        <positionLerpFactor>0.49</positionLerpFactor> <!-- 插值因子，决定粒子在两个点之间的分布位置 -->
+        <chancePerTick>0.3</chancePerTick> <!-- 每次更新时生成粒子的概率（范围 0~1） -->
+        <scale>0.34~0.54</scale> <!-- 粒子缩放比例范围，用于控制大小变化 -->
+        <airTime>0.8~1.6</airTime> <!-- 粒子在空中停留的时间范围（单位为秒） -->
+        <rotationRate>0~0</rotationRate> <!-- 旋转速度范围，这里固定为0表示不旋转 -->
+        <speed>0.32~0.64</speed> <!-- 粒子移动速度范围 -->
+        <angle>0~0</angle> <!-- 粒子发射角度范围，这里固定为0表示沿固定方向发射 -->
+        <rotation>0~0</rotation> <!-- 初始旋转角度范围，同样固定为0 -->
+        <positionRadius>0.55</positionRadius> <!-- 粒子生成位置的半径范围，控制分散程度 -->
+        <spawnLocType>OnSource</spawnLocType> <!-- 再次设置粒子生成位置类型为源物体上 -->
+        <attachToSpawnThing>true</attachToSpawnThing>
       </li>
+</children>
+</EffecterDef>
+
+<EffecterDef>
+<defName>BANW_Effecter_A</defName>
+<children>
+      <li>
+       <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass> <!-- 子特效类，使用概率喷洒器 -->
+       <moteDef>BAWN_Mote_C</moteDef><!-- 使用的mote特效定义 -->
+       <scale>1</scale>
+				<burstCount>1</burstCount>
+        <angle>0~0</angle><!-- 特效的角度范围 -->
+       <rotation>0~0</rotation><!-- 初始旋转角度（无偏转） -->
+      <spawnLocType>OnTarget</spawnLocType>
+       <absoluteAngle>true</absoluteAngle>
+       <attachToSpawnThing>true</attachToSpawnThing>
+      </li>
+
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass> <!-- 使用随机喷雾特效器，控制粒子按概率生成 -->
+        <moteDef>BAWN_Mote_A</moteDef> <!-- 粒子效果资源名称，定义具体显示的纹理或动画 -->
+        <scale>1</scale>
+				<burstCount>1</burstCount>
+        <angle>0~0</angle><!-- 特效的角度范围 -->
+       <rotation>0~0</rotation><!-- 初始旋转角度（无偏转） -->
+       <spawnLocType>OnTarget</spawnLocType>
+    <!--   <absoluteAngle>true</absoluteAngle>-->
+       <attachToSpawnThing>true</attachToSpawnThing>
+      </li>
+
+      
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass> <!-- 使用随机喷雾特效器，控制粒子按概率生成 -->
+        <moteDef>BAWN_Mote_B</moteDef> <!-- 粒子效果资源名称，定义具体显示的纹理或动画 -->
+        <scale>1</scale>
+				<burstCount>1</burstCount>
+        <angle>0~0</angle><!-- 特效的角度范围 -->
+       <rotation>0~0</rotation><!-- 初始旋转角度（无偏转） -->
+       <spawnLocType>OnTarget</spawnLocType>
+       <!--   <absoluteAngle>true</absoluteAngle>-->
+       <attachToSpawnThing>true</attachToSpawnThing>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass> <!-- 使用随机喷雾特效器，控制粒子按概率生成 -->
+        <moteDef>BAWN_Mote_AA</moteDef> <!-- 粒子效果资源名称，定义具体显示的纹理或动画 -->
+        <scale>1</scale>
+				<burstCount>1</burstCount>
+        <angle>0~0</angle><!-- 特效的角度范围 -->
+       <rotation>0~0</rotation><!-- 初始旋转角度（无偏转） -->
+       <positionOffset>(0, -0.2, 0)</positionOffset>
+       <spawnLocType>OnTarget</spawnLocType>
+       <!--   <absoluteAngle>true</absoluteAngle>-->
+       <attachToSpawnThing>true</attachToSpawnThing>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass> <!-- 使用随机喷雾特效器，控制粒子按概率生成 -->
+        <moteDef>BAWN_Mote_BB</moteDef> <!-- 粒子效果资源名称，定义具体显示的纹理或动画 -->
+        <scale>1</scale>
+				<burstCount>1</burstCount>
+        <angle>0~0</angle><!-- 特效的角度范围 -->
+       <rotation>0~0</rotation><!-- 初始旋转角度（无偏转） -->
+       <positionOffset>(0, -0.3, 0)</positionOffset>
+       <spawnLocType>OnTarget</spawnLocType>
+    <!--   <absoluteAngle>true</absoluteAngle>-->
+       <attachToSpawnThing>true</attachToSpawnThing>
+      </li>
+
 </children>
 </EffecterDef>
 </Defs>

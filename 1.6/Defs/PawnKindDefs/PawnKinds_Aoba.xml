@@ -13,6 +13,9 @@
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 		<humanPregnancyChance>0.0</humanPregnancyChance>
 		<fixedGender>Female</fixedGender>
+		<abilities>
+        <li>BAWN_Aoba_EX</li>
+        </abilities>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
