@@ -113,20 +113,7 @@
     <texPath>Projectile/Bullet_Akane</texPath>
     <graphicClass>Graphic_Single</graphicClass>
   </graphicData>
-  <comps>
-  <li Class="CompProperties_AbilityGiveHediff"><!-- 给目标添加一个 Hediff（状态效果） -->
-  <compClass>CompAbilityEffect_GiveHediff</compClass><!-- 实际执行效果的组件类 -->
-  <hediffDef>BAWN_Akane_HediffDef</hediffDef><!-- 要添加的状态效果定义名 -->
-  <onlyApplyToSelf>false</onlyApplyToSelf> <!-- 仅对自己生效 -->
-  <replaceExisting>false</replaceExisting><!-- 如果已有同类效果，则替换它 -->
-  </li>
-  </comps>
-  <additionalHediffs>
-      <li>
-        <hediff>BAWN_Akane_HediffDef</hediff>
-        <severityPerDamageDealt>0.005</severityPerDamageDealt>
-      </li>
-    </additionalHediffs>
+
   <projectile>
     <damageDef>RangedStab</damageDef>
     <damageAmountBase>50</damageAmountBase>
