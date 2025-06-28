@@ -31,6 +31,9 @@
                 <li>BANC_Badge_One</li>
             </tags>
         </apparel>
+        <tradeTags>
+      <li>HoraxArmor</li>
+    </tradeTags>
     </ThingDef>
 
     <ThingDef ParentName="BANC_Apparel_Base">
@@ -65,6 +68,9 @@
                 <li>BANC_Bag_One</li>
             </tags>
         </apparel>
+        <tradeTags>
+      <li>HoraxArmor</li>
+    </tradeTags>
     </ThingDef>
      <ThingDef ParentName="BANC_Apparel_Base">
         <defName>BANC_Hairpin_One</defName>
@@ -97,6 +103,9 @@
                 <li>BANC_Hairpin_One</li>
             </tags>
         </apparel>
+        <tradeTags>
+      <li>HoraxArmor</li>
+    </tradeTags>
     </ThingDef>
 
 <ThingDef ParentName="BANC_Apparel_Base_Tow">
@@ -130,6 +139,7 @@
                 <li>BANC_Badge_Tow</li>
             </tags>
         </apparel>
+
     </ThingDef>
 
     <ThingDef ParentName="BANC_Apparel_Base_Tow">

@@ -30,6 +30,7 @@
         </weaponTags>
 		<apparelRequired Inherit="False">
 			<li>BANW_Body_Cherino</li>
+			<li>BANC_Cherino_A</li>
 		</apparelRequired>
 		<forcedHair>Bald</forcedHair>
 
@@ -59,5 +60,41 @@
 			<BAWC_TraitDef_Attack>0</BAWC_TraitDef_Attack>
 		</forcedTraits>
 	</PawnKindDef>
-
+ <ThingDef ParentName="BANC_Apparel_Base">
+        <defName>BANC_Cherino_A</defName>
+        <label>胡子</label>
+        <description>胡子是权力的象征!</description>
+        <graphicData><!--需要一个衣服的通用物品贴图-->
+            <texPath>Pawns/RedWinter/Cherino/Apparel/Cherino_Apparel_A</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>2.0</drawSize>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Pawns/RedWinter/Cherino/Apparel/Cherino_Apparel_A</wornGraphicPath>
+            <bodyPartGroups>
+              <li>UpperHead</li>
+            </bodyPartGroups>
+            <layers>
+                <li>EyeCover</li>
+            </layers>
+            <tags>
+                <li>BANC_Cherino_A</li>
+				<li>BANW_Head</li>
+            </tags>
+			  <drawData>
+                <dataSouth>
+                    <layer>60</layer>
+                </dataSouth>
+                <dataEast>
+                    <layer>60</layer>
+                </dataEast>
+                <dataWest>
+                    <layer>60</layer>
+                </dataWest>
+                <dataNorth>
+                    <layer>60</layer>
+                </dataNorth>
+            </drawData>
+        </apparel>
+    </ThingDef>
 </Defs>

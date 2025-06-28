@@ -32,6 +32,9 @@
                 <li>BANC_Amulet_One</li>
             </tags>
         </apparel>
+        <tradeTags>
+      <li>HoraxArmor</li>
+    </tradeTags>
     </ThingDef>
 
     <ThingDef ParentName="BANC_Apparel_Base">
@@ -62,6 +65,9 @@
                 <li>BANC_Watch_One</li>
             </tags>
         </apparel>
+        <tradeTags>
+      <li>HoraxArmor</li>
+    </tradeTags>
     </ThingDef>
 
     <ThingDef ParentName="BANC_Apparel_Base">
@@ -97,6 +103,9 @@
             </tags>
          
         </apparel>
+        <tradeTags>
+      <li>HoraxArmor</li>
+    </tradeTags>
     </ThingDef>
 
     <ThingDef ParentName="BANC_Apparel_Base_Tow">

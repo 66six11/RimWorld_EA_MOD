@@ -30,7 +30,7 @@
 								</BodyPart>
 								<Posture>
 									<drawnStanding>true</drawnStanding>
-									<drawnLaying>true</drawnLaying>
+									<drawnLaying>false</drawnLaying>
 									<drawnInBed>false</drawnInBed>									<!-- 睡觉不显示光环 -->
 								</Posture>
 							</conditions>
@@ -201,7 +201,7 @@
 								</south>
 								<east>
 									<layerOffset>-0.27</layerOffset>
-									<offset>(0.1,-0.34)</offset>
+									<offset>(0.096,-0.342)</offset>
 								</east>
 							</offsets>
 							<extendedGraphics>
@@ -425,7 +425,8 @@
 					<li>BANW_Body_Ichika</li>
 					<li>BANW_Body_Karlin</li>
 					<li>BANW_Body_Cherino</li>
-
+                    <li>BANC_Cherino_A</li>
+					
 					<li>BANC_Hat_One</li>
 					<li>BANC_Glove_One</li>
 					<li>BANC_Amulet_One</li>

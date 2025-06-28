@@ -23,7 +23,7 @@
   <Ability_Duration>32</Ability_Duration>
  </statBases>
  <verbProperties>
- <soundCast>Aoba_ExSkill_EX</soundCast>
+ <soundCast>Aoba_Skill_EX</soundCast>
  <verbClass>Verb_CastAbility</verbClass> <!-- 动词类，这里是触发型技能 -->
  <drawAimPie>false</drawAimPie><!-- 不绘制瞄准圈 -->
  <range>-1</range><!-- 作用范围：-1 表示只能近战接触 -->

@@ -74,7 +74,6 @@
       </li>
        <li Class="HediffCompProperties_Effecter">
         <stateEffecter>Hoshiro_HPP</stateEffecter>
-        <maintainForTicks>24</maintainForTicks>
       </li>
       
     </comps>

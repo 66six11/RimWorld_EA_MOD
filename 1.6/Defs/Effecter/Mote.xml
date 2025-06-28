@@ -14,8 +14,6 @@
 
     <altitudeLayer>MoteOverhead</altitudeLayer><!-- 显示层级，设置为最顶层 -->
     <mote>
-      <solidTime>3</solidTime>
-      <needsMaintenance>true</needsMaintenance>
       <fadeInTime>0.3</fadeInTime><!-- 淡入时间（秒） -->
       <solidTime>0.7</solidTime><!-- 固定显示时间（秒） -->
       <fadeOutTime>0.3</fadeOutTime> <!-- 淡出时间（秒） -->
@@ -36,8 +34,6 @@
 
     <altitudeLayer>MoteOverhead</altitudeLayer><!-- 显示层级，设置为最顶层 -->
     <mote>
-      <solidTime>3</solidTime>
-      <needsMaintenance>true</needsMaintenance>
       <fadeInTime>0.1</fadeInTime><!-- 淡入时间（秒） -->
       <solidTime>0.8</solidTime><!-- 固定显示时间（秒） -->
       <fadeOutTime>0.1</fadeOutTime><!-- 淡出时间（秒） -->

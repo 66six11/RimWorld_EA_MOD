@@ -24,7 +24,7 @@
     <stabChanceOfForcedInternal>0.6</stabChanceOfForcedInternal><!--设置强制将伤害转为内部伤害的概率为 60%-->
     <isRanged>true</isRanged><!--是否为远程武器-->
     <makesAnimalsFlee>true</makesAnimalsFlee><!--是否使动物逃跑-->
-    <damageEffecter>BAWN_Akane_Ef</damageEffecter>
+    <damageEffecter>BAWN_Akane_Ef_A</damageEffecter>
 
   </DamageDef>
 
